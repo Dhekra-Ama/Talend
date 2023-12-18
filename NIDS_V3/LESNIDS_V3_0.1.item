@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV_IN" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH0II6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Collab_extension" prompt="Collab_extension?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH0YI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Collab_file_dir" prompt="Collab_file_dir?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH0oI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Collab_filename" prompt="Collab_filename?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH04I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="collab_sheetname" prompt="collab_sheetname?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH1II6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="CONTEXTFILEPATH" prompt="CONTEXTFILEPATH?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH1YI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Ctr_extension" prompt="Ctr_extension?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH1oI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Ctr_file_dir" prompt="Ctr_file_dir?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH14I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Ctr_filename" prompt="Ctr_filename?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH2II6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="ctr_sheetname" prompt="ctr_sheetname?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH2YI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH2oI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="fichier_source_collab" prompt="fichier_source_collab?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH24I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="fichier_source_collab_extension" prompt="fichier_source_collab_extension?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH3II6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="fichier_source_collab_filename" prompt="fichier_source_collab_filename?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH3YI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="fichier_source_ctr" prompt="fichier_source_ctr?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH3oI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="fichier_source_ctr_extension" prompt="fichier_source_ctr_extension?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH34I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="fichier_source_ctr_filename" prompt="fichier_source_ctr_filename?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH4II6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="file_dir" prompt="file_dir?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH4YI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="from" prompt="from?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH4oI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH44I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Interface" prompt="Interface?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH5II6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="MailMessage" prompt="MailMessage?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH5YI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="MailSubject" prompt="MailSubject?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH5oI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="NewClient" prompt="NewClient?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH54I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH6II6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH6YI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="remote_dir" prompt="remote_dir?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH6oI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH64I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="schemaIN" prompt="schemaIN?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH7II6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="schemaLog" prompt="schemaLog?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH7YI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="schemaMAPPING" prompt="schemaMAPPING?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH7oI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="schemaSILAE" prompt="schemaSILAE?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH74I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="senderName" prompt="senderName?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH8II6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SFTP_host" prompt="SFTP_host?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH8YI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SFTP_password" prompt="SFTP_password?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH8oI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SFTP_port" prompt="SFTP_port?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_Integer" value="" internalId="_fqSH84I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SFTP_username" prompt="SFTP_username?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH9II6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SMTP_host" prompt="SMTP_host?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH9YI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SMTP_password" prompt="SMTP_password?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH9oI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SMTP_port" prompt="SMTP_port?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH94I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SMTP_username" prompt="SMTP_username?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH-II6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="to" prompt="to?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH-YI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="URL_API_COLLAB" prompt="URL_API_COLLAB?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH-oI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="URL_API_CTR" prompt="URL_API_CTR?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH-4I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="URL_API_TOKEN" prompt="URL_API_TOKEN?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH_II6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH_YI6Ee6ddoJK9OYqGg"/>
+  </context>
+  <context confirmationNeeded="false" name="DEV_IN">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH_oI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Collab_extension" prompt="Collab_extension?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSH_4I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Collab_file_dir" prompt="Collab_file_dir?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIAII6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Collab_filename" prompt="Collab_filename?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIAYI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="collab_sheetname" prompt="collab_sheetname?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIAoI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="CONTEXTFILEPATH" prompt="CONTEXTFILEPATH?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="C:/INTERFACES/TEST_V3/CONTEXT_TEMPLATE_IN_RECETTE.txt" internalId="_fqSIA4I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Ctr_extension" prompt="Ctr_extension?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIBII6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Ctr_file_dir" prompt="Ctr_file_dir?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIBYI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Ctr_filename" prompt="Ctr_filename?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIBoI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="ctr_sheetname" prompt="ctr_sheetname?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIB4I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSICII6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="fichier_source_collab" prompt="fichier_source_collab?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSICYI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="fichier_source_collab_extension" prompt="fichier_source_collab_extension?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSICoI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="fichier_source_collab_filename" prompt="fichier_source_collab_filename?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIC4I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="fichier_source_ctr" prompt="fichier_source_ctr?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIDII6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="fichier_source_ctr_extension" prompt="fichier_source_ctr_extension?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIDYI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="fichier_source_ctr_filename" prompt="fichier_source_ctr_filename?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIDoI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="file_dir" prompt="file_dir?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSID4I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="from" prompt="from?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIEII6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIEYI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="Interface" prompt="Interface?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIEoI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="MailMessage" prompt="MailMessage?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIE4I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="MailSubject" prompt="MailSubject?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIFII6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="NewClient" prompt="NewClient?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIFYI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIFoI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIF4I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="remote_dir" prompt="remote_dir?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIGII6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIGYI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="schemaIN" prompt="schemaIN?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIGoI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="schemaLog" prompt="schemaLog?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIG4I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="schemaMAPPING" prompt="schemaMAPPING?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIHII6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="schemaSILAE" prompt="schemaSILAE?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIHYI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="senderName" prompt="senderName?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIHoI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SFTP_host" prompt="SFTP_host?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIH4I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SFTP_password" prompt="SFTP_password?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIIII6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SFTP_port" prompt="SFTP_port?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_Integer" value="" internalId="_fqSIIYI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SFTP_username" prompt="SFTP_username?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIIoI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SMTP_host" prompt="SMTP_host?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSII4I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SMTP_password" prompt="SMTP_password?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIJII6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SMTP_port" prompt="SMTP_port?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIJYI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="SMTP_username" prompt="SMTP_username?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIJoI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="to" prompt="to?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIJ4I6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="URL_API_COLLAB" prompt="URL_API_COLLAB?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIKII6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="URL_API_CTR" prompt="URL_API_CTR?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIKYI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="URL_API_TOKEN" prompt="URL_API_TOKEN?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIKoI6Ee6ddoJK9OYqGg"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_HYjJoH1VEe6bZONgiE4wDQ" type="id_String" value="" internalId="_fqSIK4I6Ee6ddoJK9OYqGg"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Program Files (x86)/TOS_DI-8.0.1/studio/ContextEssai.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:wsSBvQzaHx/t+tcgbb+8gR0phSPpDvDrARyNMZLn" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Program Files (x86)/TOS_DI-8.0.1/studio/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nF/9lAfFL/dZPHNswVttQ+MPv3nyLe9ljSSJlTUB" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <routinesParameter id="_0SxDsHdCEe6R3JlFXBhXww" name="DataOperation"/>
+    <routinesParameter id="_0TZ84HdCEe6R3JlFXBhXww" name="Mathematical"/>
+    <routinesParameter id="_0TkU8HdCEe6R3JlFXBhXww" name="Numeric"/>
+    <routinesParameter id="_0TuF8HdCEe6R3JlFXBhXww" name="Relational"/>
+    <routinesParameter id="_0UC2EHdCEe6R3JlFXBhXww" name="StringHandling"/>
+    <routinesParameter id="_0UMAAHdCEe6R3JlFXBhXww" name="TalendDataGenerator"/>
+    <routinesParameter id="_0UVJ8HdCEe6R3JlFXBhXww" name="TalendDate"/>
+    <routinesParameter id="_0UmPsHdCEe6R3JlFXBhXww" name="TalendStringUtil"/>
+    <routinesParameter id="_0Uds0HdCEe6R3JlFXBhXww" name="TalendString"/>
+  </parameters>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.fichier_source_collab"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_7HbF8BtOEe6sDu9B96bi3g - metadata" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;D:/MSSQL/DATA/TOS/TOS_ESB-20200219_1130-V7.3.1/Studio/workspace&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MatriculePaie"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Matricule_Salarie"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Prenom_du_salarie"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Nom_du_salarie"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Second_Prenom"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Sexe"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date_de_naissance"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Nationalite"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Role"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Login"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Password"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FuseauHoraire"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Langue"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Manager"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Code_Type_de_contrat"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CSP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TelPro"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Tel"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AdresseProf1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AdressePro2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CodePostalPro"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VillePro"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EtatPro"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PaysPro"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Email_Prof"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="N__tel_Domicile"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Tel_Perso_mobile"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="N__de_Voie_b_t_q_c_et_Nom_de_voie"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Complement_de_la_voie"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Code_postal"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Ville"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EtatPerso"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Pays_perso"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Email_Perso"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Code_Entite"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateEntreeEntite"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Code_qualification_non_conventionnelle"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateEntree"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EvaluationPosition"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date_Anciennete_Entreprise"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date_Depart"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RaisonDepart"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateEvaluation"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="StatutSalarie"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Archive"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CodeManager"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Index"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Coefficient"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Advantages"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Brut"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BonusTheorique"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BonusReel"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Compensation"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Commentaires"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateDebutContrat"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date_fin_contrat"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateAnc"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Id"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MatriculePaie"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Matricule_Salarie"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Prenom_du_salarie"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Nom_du_salarie"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Second_Prenom"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Sexe"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date_de_naissance"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Nationalite"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Role"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Login"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Password"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FuseauHoraire"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Langue"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Manager"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Code_Type_de_contrat"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CSP"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TelPro"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Tel"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AdresseProf1"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AdressePro2"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CodePostalPro"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VillePro"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EtatPro"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PaysPro"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Email_Prof"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="N__tel_Domicile"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Tel_Perso_mobile"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="N__de_Voie_b_t_q_c_et_Nom_de_voie"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Complement_de_la_voie"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Code_postal"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Ville"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EtatPerso"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Pays_perso"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Email_Perso"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Code_Entite"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateEntreeEntite"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Code_qualification_non_conventionnelle"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateEntree"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EvaluationPosition"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date_Anciennete_Entreprise"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date_Depart"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RaisonDepart"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateEvaluation"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="StatutSalarie"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Archive"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CodeManager"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Index"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Coefficient"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Advantages"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Brut"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BonusTheorique"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BonusReel"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Compensation"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Commentaires"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateDebutContrat"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date_fin_contrat"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateAnc"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Collab_Format_V2"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="2" name="Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MatriculePaie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Matricule_Salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Prenom_du_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Nom_du_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Second_Prenom" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Sexe" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_de_naissance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="Nationalite" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Role" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Login" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Password" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FuseauHoraire" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Langue" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Manager" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Code_Type_de_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="9" name="CSP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="TelPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Tel" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AdresseProf1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AdressePro2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CodePostalPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="VillePro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EtatPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PaysPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="Email_Prof" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="N__tel_Domicile" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="Tel_Perso_mobile" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="N__de_Voie_b_t_q_c_et_Nom_de_voie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="27" name="Complement_de_la_voie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Code_postal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="Ville" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EtatPerso" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="Pays_perso" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="29" name="Email_Perso" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Code_Entite" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateEntreeEntite" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Code_qualification_non_conventionnelle" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateEntree" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EvaluationPosition" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_Anciennete_Entreprise" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Date_Depart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="RaisonDepart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateEvaluation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="StatutSalarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Archive" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CodeManager" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Coefficient" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Advantages" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Brut" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BonusTheorique" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BonusReel" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Compensation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Commentaires" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateDebutContrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_fin_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateAnc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="2" name="Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MatriculePaie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Matricule_Salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Prenom_du_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Nom_du_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Second_Prenom" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Sexe" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_de_naissance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="Nationalite" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Role" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Login" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Password" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FuseauHoraire" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Langue" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Manager" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Code_Type_de_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="9" name="CSP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="TelPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Tel" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AdresseProf1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AdressePro2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CodePostalPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="VillePro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EtatPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PaysPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="Email_Prof" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="N__tel_Domicile" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="Tel_Perso_mobile" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="N__de_Voie_b_t_q_c_et_Nom_de_voie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="27" name="Complement_de_la_voie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Code_postal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="Ville" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EtatPerso" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="Pays_perso" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="29" name="Email_Perso" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Code_Entite" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateEntreeEntite" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Code_qualification_non_conventionnelle" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateEntree" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EvaluationPosition" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_Anciennete_Entreprise" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Date_Depart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="RaisonDepart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateEvaluation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="StatutSalarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Archive" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CodeManager" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Coefficient" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Advantages" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Brut" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BonusTheorique" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BonusReel" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Compensation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Commentaires" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateDebutContrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_fin_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateAnc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_2" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.fichier_source_ctr"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="1"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="false"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_REJECT:REPOSITORY_SCHEMA_TYPE" value="_CkvMEBtPEe6sDu9B96bi3g - metadata" show="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;D:/MSSQL/DATA/TOS/TOS_ESB-20200219_1130-V7.3.1/Studio/workspace&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Textbox2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Matricule_Salarie"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Code_Type_de_contrat"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date_de_debut_de_contrat"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date_fin_contrat"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Motif_Fin_de_Contrat"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Textbox2"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Matricule_Salarie"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Code_Type_de_contrat"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date_de_debut_de_contrat"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Date_fin_contrat"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Motif_Fin_de_Contrat"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Contrat_Format_V2"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_2">
+      <column comment="" key="false" length="2" name="Textbox2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Matricule_Salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="Code_Type_de_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_de_debut_de_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_fin_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Motif_Fin_de_Contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT">
+      <column comment="" key="false" length="2" name="Textbox2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Matricule_Salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="Code_Type_de_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_de_debut_de_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_fin_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Motif_Fin_de_Contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_GJJSQH2MEe6yYbW51TiKLQ-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
+    <elementParameter field="TEXT" name="JACCARD" value="0" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="Collab">
+      <column comment="" key="false" length="2" name="Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MatriculePaie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Matricule_Salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Prenom_du_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Nom_du_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Second_Prenom" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Sexe" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_de_naissance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="Nationalite" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Role" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Login" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Password" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FuseauHoraire" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Langue" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Manager" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Code_Type_de_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="9" name="CSP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="TelPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Tel" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AdresseProf1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AdressePro2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CodePostalPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="VillePro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EtatPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PaysPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="Email_Prof" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="N__tel_Domicile" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="Tel_Perso_mobile" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="N__de_Voie_b_t_q_c_et_Nom_de_voie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="27" name="Complement_de_la_voie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Code_postal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="Ville" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EtatPerso" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="Pays_perso" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="29" name="Email_Perso" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Code_Entite" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateEntreeEntite" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Code_qualification_non_conventionnelle" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateEntree" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EvaluationPosition" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_Anciennete_Entreprise" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Date_Depart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="RaisonDepart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateEvaluation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="StatutSalarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Archive" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CodeManager" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Coefficient" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Advantages" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Brut" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BonusTheorique" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BonusReel" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Compensation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Commentaires" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateDebutContrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_fin_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateAnc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" label="metadata" name="Contrat">
+      <column comment="" key="false" length="3" name="ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="9" name="PAYROLL_NUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="NATURE_CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="END_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="CURRENT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="PROFESSION_PAYROLL_NUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="ENTITY_PAYROLL_NUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="LEGAL_ENTIY_PAYROLL_NUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CSP_CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="WorkingDurationWeek" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="REFERENCE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="AVENANT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Profession">
+      <column comment="" key="false" length="-1" name="Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Profession_Payroll_num" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Profession_Name" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ParentProfessionNum" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ProfessionType" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="IsArchived" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="Entite">
+      <column comment="" key="false" length="-1" name="Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EntityPayrollNum" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EntityName" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ParentEntityNum" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EntityType" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="IsVirtual" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="TimeZone" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DefaultLanguage" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ProContactPhone" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ProZipCode" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ProCity" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ProState" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Latitude" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Longitude" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="IsArchived" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="IsCompany" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var">
+        <mapperTableEntries name="Id" expression="Numeric.sequence(&quot;s1&quot;,1,1) " type="id_Integer"/>
+      </varTables>
+      <outputTables sizeState="INTERMEDIATE" name="Collab" minimized="true" expressionFilter="row1.Date_fin_contrat .equals(&quot;&quot;)  " activateExpressionFilter="true" activateCondensedTool="true">
+        <mapperTableEntries name="Id" expression="row1.Id " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="MatriculePaie" expression="row1.MatriculePaie " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Matricule_Salarie" expression="row1.Matricule_Salarie " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Prenom_du_salarie" expression="row1.Prenom_du_salarie " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Nom_du_salarie" expression="row1.Nom_du_salarie " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Second_Prenom" expression="row1.Second_Prenom " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Sexe" expression="row1.Sexe " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Date_de_naissance" expression="row1.Date_de_naissance " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Nationalite" expression="row1.Nationalite " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Role" expression="row1.Role " type="id_Character" nullable="true"/>
+        <mapperTableEntries name="Login" expression="row1.Login " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Password" expression="row1.Password " type="id_String" nullable="true"/>
+        <mapperTableEntries name="FuseauHoraire" expression="row1.FuseauHoraire " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Langue" expression="row1.Langue " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Manager" expression="row1.Manager " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Code_Type_de_contrat" expression="row1.Code_Type_de_contrat " type="id_String" nullable="true"/>
+        <mapperTableEntries name="CSP" expression="row1.CSP " type="id_String" nullable="true"/>
+        <mapperTableEntries name="TelPro" expression="row1.TelPro " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Tel" expression="row1.Tel " type="id_String" nullable="true"/>
+        <mapperTableEntries name="AdresseProf1" expression="row1.AdresseProf1 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="AdressePro2" expression="row1.AdressePro2 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="CodePostalPro" expression="row1.CodePostalPro " type="id_String" nullable="true"/>
+        <mapperTableEntries name="VillePro" expression="row1.VillePro " type="id_String" nullable="true"/>
+        <mapperTableEntries name="EtatPro" expression="row1.EtatPro " type="id_String" nullable="true"/>
+        <mapperTableEntries name="PaysPro" expression="row1.PaysPro " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Email_Prof" expression="row1.Email_Prof " type="id_String" nullable="true"/>
+        <mapperTableEntries name="N__tel_Domicile" expression="row1.N__tel_Domicile " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Tel_Perso_mobile" expression="row1.Tel_Perso_mobile " type="id_String" nullable="true"/>
+        <mapperTableEntries name="N__de_Voie_b_t_q_c_et_Nom_de_voie" expression="row1.N__de_Voie_b_t_q_c_et_Nom_de_voie " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Complement_de_la_voie" expression="row1.Complement_de_la_voie " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Code_postal" expression="row1.Code_postal " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Ville" expression="row1.Ville " type="id_String" nullable="true"/>
+        <mapperTableEntries name="EtatPerso" expression="row1.EtatPerso " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Pays_perso" expression="row1.Pays_perso " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Email_Perso" expression="row1.Email_Perso " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Code_Entite" expression="row1.Code_Entite " type="id_String" nullable="true"/>
+        <mapperTableEntries name="DateEntreeEntite" expression="row1.DateEntreeEntite " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Code_qualification_non_conventionnelle" expression="row1.Code_qualification_non_conventionnelle " type="id_String" nullable="true"/>
+        <mapperTableEntries name="DateEntree" expression="row1.DateEntree " type="id_String" nullable="true"/>
+        <mapperTableEntries name="EvaluationPosition" expression="row1.EvaluationPosition " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Date_Anciennete_Entreprise" expression="row1.Date_Anciennete_Entreprise " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Date_Depart" expression="row1.Date_Depart " type="id_String" nullable="true"/>
+        <mapperTableEntries name="RaisonDepart" expression="row1.RaisonDepart " type="id_String" nullable="true"/>
+        <mapperTableEntries name="DateEvaluation" expression="row1.DateEvaluation " type="id_String" nullable="true"/>
+        <mapperTableEntries name="StatutSalarie" expression="row1.StatutSalarie " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Archive" expression="row1.Archive " type="id_String" nullable="true"/>
+        <mapperTableEntries name="CodeManager" expression="row1.CodeManager " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Index" expression="row1.Index " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Coefficient" expression="row1.Coefficient " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Advantages" expression="row1.Advantages " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Brut" expression="row1.Brut " type="id_String" nullable="true"/>
+        <mapperTableEntries name="BonusTheorique" expression="row1.BonusTheorique " type="id_String" nullable="true"/>
+        <mapperTableEntries name="BonusReel" expression="row1.BonusReel " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Compensation" expression="row1.Compensation " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Commentaires" expression="row1.Commentaires " type="id_String" nullable="true"/>
+        <mapperTableEntries name="DateDebutContrat" expression="row1.DateDebutContrat " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Date_fin_contrat" expression="row1.Date_fin_contrat " type="id_String" nullable="true"/>
+        <mapperTableEntries name="DateAnc" expression="row1.DateAnc " type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="Contrat" expressionFilter="row1.Date_fin_contrat .equals(&quot;&quot;)" activateExpressionFilter="true" activateCondensedTool="true">
+        <mapperTableEntries name="ID" expression="row2.Textbox2 " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="PAYROLL_NUM" expression="row2.Matricule_Salarie " type="id_String" nullable="true"/>
+        <mapperTableEntries name="NATURE_CODE" expression="row2.Code_Type_de_contrat " type="id_String" nullable="true"/>
+        <mapperTableEntries name="START_DATE" expression="row2.Date_de_debut_de_contrat " type="id_String" nullable="true"/>
+        <mapperTableEntries name="END_DATE" expression="row2.Date_fin_contrat " type="id_String" nullable="true"/>
+        <mapperTableEntries name="CURRENT" type="id_String" nullable="true"/>
+        <mapperTableEntries name="PROFESSION_PAYROLL_NUM" expression="row1.Code_qualification_non_conventionnelle " type="id_String" nullable="true"/>
+        <mapperTableEntries name="ENTITY_PAYROLL_NUM" expression="row1.Code_Entite " type="id_String" nullable="true"/>
+        <mapperTableEntries name="LEGAL_ENTIY_PAYROLL_NUM" expression="row1.Code_Entite " type="id_String" nullable="true"/>
+        <mapperTableEntries name="CSP_CODE" expression="row1.CSP " type="id_String" nullable="true"/>
+        <mapperTableEntries name="WorkingDurationWeek" type="id_String" nullable="true"/>
+        <mapperTableEntries name="REFERENCE" type="id_String" nullable="true"/>
+        <mapperTableEntries name="AVENANT" type="id_Integer" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="Profession" minimized="true">
+        <mapperTableEntries name="Id" expression="Var.Id " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Profession_Payroll_num" expression="row1.Code_qualification_non_conventionnelle " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Profession_Name" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ParentProfessionNum" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ProfessionType" expression="&quot;Emploi&quot;" type="id_String" nullable="true"/>
+        <mapperTableEntries name="IsArchived" type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="Entite" minimized="true">
+        <mapperTableEntries name="Id" expression="Var.Id " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="EntityPayrollNum" expression="row1.Code_Entite " type="id_String" nullable="true"/>
+        <mapperTableEntries name="EntityName" expression="" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ParentEntityNum" type="id_String" nullable="true"/>
+        <mapperTableEntries name="EntityType" expression="&quot;Etablissement&quot;" type="id_String" nullable="true"/>
+        <mapperTableEntries name="IsVirtual" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TimeZone" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DefaultLanguage" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ProContactPhone" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ProZipCode" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ProCity" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ProState" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Latitude" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Longitude" type="id_String" nullable="true"/>
+        <mapperTableEntries name="IsArchived" type="id_String" nullable="true"/>
+        <mapperTableEntries name="IsCompany" type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="Id" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="MatriculePaie" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Matricule_Salarie" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Prenom_du_salarie" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Nom_du_salarie" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Second_Prenom" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Sexe" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Date_de_naissance" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Nationalite" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Role" type="id_Character" nullable="true"/>
+        <mapperTableEntries name="Login" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Password" type="id_String" nullable="true"/>
+        <mapperTableEntries name="FuseauHoraire" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Langue" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Manager" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Code_Type_de_contrat" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CSP" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TelPro" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Tel" type="id_String" nullable="true"/>
+        <mapperTableEntries name="AdresseProf1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="AdressePro2" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CodePostalPro" type="id_String" nullable="true"/>
+        <mapperTableEntries name="VillePro" type="id_String" nullable="true"/>
+        <mapperTableEntries name="EtatPro" type="id_String" nullable="true"/>
+        <mapperTableEntries name="PaysPro" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Email_Prof" type="id_String" nullable="true"/>
+        <mapperTableEntries name="N__tel_Domicile" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Tel_Perso_mobile" type="id_String" nullable="true"/>
+        <mapperTableEntries name="N__de_Voie_b_t_q_c_et_Nom_de_voie" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Complement_de_la_voie" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Code_postal" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Ville" type="id_String" nullable="true"/>
+        <mapperTableEntries name="EtatPerso" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Pays_perso" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Email_Perso" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Code_Entite" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DateEntreeEntite" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Code_qualification_non_conventionnelle" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DateEntree" type="id_String" nullable="true"/>
+        <mapperTableEntries name="EvaluationPosition" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Date_Anciennete_Entreprise" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Date_Depart" type="id_String" nullable="true"/>
+        <mapperTableEntries name="RaisonDepart" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DateEvaluation" type="id_String" nullable="true"/>
+        <mapperTableEntries name="StatutSalarie" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Archive" type="id_String" nullable="true"/>
+        <mapperTableEntries name="CodeManager" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Index" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Coefficient" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Advantages" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Brut" type="id_String" nullable="true"/>
+        <mapperTableEntries name="BonusTheorique" type="id_String" nullable="true"/>
+        <mapperTableEntries name="BonusReel" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Compensation" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Commentaires" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DateDebutContrat" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Date_fin_contrat" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DateAnc" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
+        <mapperTableEntries name="Textbox2" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="Matricule_Salarie" expression="row1.Matricule_Salarie " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="Code_Type_de_contrat" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Date_de_debut_de_contrat" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Date_fin_contrat" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Motif_Fin_de_Contrat" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="96">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.Collab_file_dir"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="true"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="true"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Collaborateurs"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputDelimited_1">
+      <column comment="" key="false" length="2" name="Id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MatriculePaie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Matricule_Salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Prenom_du_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Nom_du_salarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Second_Prenom" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Sexe" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_de_naissance" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="Nationalite" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="Role" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Login" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Password" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FuseauHoraire" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Langue" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Manager" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Code_Type_de_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="9" name="CSP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="TelPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Tel" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AdresseProf1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AdressePro2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CodePostalPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="VillePro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EtatPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PaysPro" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="22" name="Email_Prof" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="14" name="N__tel_Domicile" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="Tel_Perso_mobile" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="N__de_Voie_b_t_q_c_et_Nom_de_voie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="27" name="Complement_de_la_voie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Code_postal" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="26" name="Ville" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EtatPerso" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="Pays_perso" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="29" name="Email_Perso" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Code_Entite" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateEntreeEntite" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="Code_qualification_non_conventionnelle" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateEntree" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EvaluationPosition" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_Anciennete_Entreprise" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Date_Depart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="RaisonDepart" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateEvaluation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="StatutSalarie" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Archive" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CodeManager" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Index" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Coefficient" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Advantages" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Brut" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BonusTheorique" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BonusReel" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Compensation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Commentaires" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateDebutContrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Date_fin_contrat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DateAnc" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_2" show="false"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.Ctr_file_dir"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\r\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\r\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="true"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" value="1" show="false"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="ImportContrat"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tFileOutputDelimited_2">
+      <column comment="" key="false" length="3" name="ID" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="9" name="PAYROLL_NUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="NATURE_CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="START_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="END_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="0" name="CURRENT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="PROFESSION_PAYROLL_NUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="ENTITY_PAYROLL_NUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="LEGAL_ENTIY_PAYROLL_NUM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="CSP_CODE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="7" name="WorkingDurationWeek" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="REFERENCE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="AVENANT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tFileInputDelimited_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="Collab" lineStyle="0" metaname="Collab" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Collab" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="Contrat" lineStyle="0" metaname="Contrat" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tFileOutputDelimited_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Contrat" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

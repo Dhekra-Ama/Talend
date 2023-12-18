@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DVM" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BQH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BQX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BQn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" internalId="_zh1BQ37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BRH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BRX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BRn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" internalId="_zh1BR37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BSH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BSX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BSn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BS37dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="SOFA">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BTH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-SOFA-SYNCHRO" internalId="_zh1BTX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh1BTn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:oWvqF7mt+edhw6keQJcEgVcPngFDK0t389pZ2CJjvncqnqBN" internalId="_zh1BT37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh1BUH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh1BUX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-SOFA" internalId="_zh1BUn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:2Hs+DtTOwPvRyS7NDqhjfMAAmyl8QgLCU/VDPLBPrjJVN+FJ" internalId="_zh1BU37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-SOFA" internalId="_zh1BVH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh1BVX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BVn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh1BV37dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="AiderSante">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BWH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-AIDERSANTE-SYNCHRO" internalId="_zh1BWX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh1BWn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:LAjtIflwq6/tG67Sq1ttqCYavqDEYe7MULAj+C9hdO7018+6" internalId="_zh1BW37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh1BXH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh1BXX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-AIDERSANTE" internalId="_zh1BXn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:HmBW1j71imVOSn2498YsugzUSlWsrZnyLT7zFujvrDJQI+Sn" internalId="_zh1BX37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-AIDERSANTE" internalId="_zh1BYH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh1BYX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BYn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh1BY37dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="ADPEI">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1BZH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ADPEI-SYNCHRO" internalId="_zh1BZX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh1BZn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:j5eQEcyK2PrnXyeY1wrt75CTXD8kWlCQe/RCVLLo9lYMExYt" internalId="_zh1BZ37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh1BaH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh1BaX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ADPEI" internalId="_zh1Ban7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:lUl6DOJ4W3WGI0ySCv5Yje+BTXk/nIPLYT5ZD9tq8BjSRaVU" internalId="_zh1Ba37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ADPEI" internalId="_zh1BbH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh1BbX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1Bbn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh1Bb37dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="NIORT_FRERE">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ssl=require" internalId="_zh1BcH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-NIORT-FRERE-SYNCHRO" internalId="_zh1oUH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh1oUX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:4CfdwkhUNjCbeV+PV9/67V27PcQ0U+GagW6guk84lgZGIH23gFbYuzzOIr/B7KYNQhBITQ==" internalId="_zh1oUn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh1oU37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh1oVH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-NIORTFRERES" internalId="_zh1oVX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:dNuh2dCeqxmn80bJbqUlow8MCiN70/v9qiu24xOoo4xVgR9ZCYIQS0fOo2BVYJxK1SOnMQ==" internalId="_zh1oVn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh1oV37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh1oWH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1oWX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh1oWn7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="QuickMS">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh1oW37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-GIPLABEO-SYNCHRO" internalId="_zh1oXH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh1oXX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:tf1ncVdYiFzPNJP4NIqT1tzF+XXSUSaihRnBJTvBBdqLZg+/" internalId="_zh2PYH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh2PYX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh2PYn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-GIPLABEO" internalId="_zh2PY37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:o/St5yAr8BlyCQukxaeJiatSEFd/rI6Jcajndd3ORss88dRZ" internalId="_zh2PZH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-GIPLABEO" internalId="_zh2PZX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh2PZn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh2PZ37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh2PaH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="Clinique_Saint_Roch">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh2PaX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-CLINIQUE-SAINTROCH-SYNCHRO" internalId="_zh2Pan7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh2Pa37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:QXAB+UsK51lUvHZKNQTLwmKJIKqJTEhaZ9wpQcd43jIP3J3j" internalId="_zh2PbH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh2PbX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh2Pbn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-CLINIQUESAINTROCH" internalId="_zh2Pb37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:yD4n4YifL8GNQXObBhVWCOsqnJt8mwJLOtNy/lhs89J/exxv" internalId="_zh2PcH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-CLINIQUESAINTROCH" internalId="_zh2PcX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh2Pcn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh2Pc37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh2PdH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="PreProduction">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh2PdX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Synchro_20.6" internalId="_zh2Pdn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh2Pd37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:4wuHQYK6K3dn2B4w8uzX9AKdMxeceNyQ3M+SFyYHDtDvtC1F" internalId="_zh2PeH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh2PeX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh2Pen7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-OMNIPHAR-STG" internalId="_zh2Pe37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" internalId="_zh2PfH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-OMNIPHAR-STG" internalId="_zh2PfX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh2Pfn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh2Pf37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh2PgH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="Lamut">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh2PgX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Lamut_Synchro" internalId="_zh2Pgn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DESKTOP-5LVD0UM" internalId="_zh2Pg37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:8kglzXZNrJv1/PQ2tWisgYFWNI1NeyNCWG9KYX2hLQ==" internalId="_zh2PhH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh2PhX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh2Phn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-LAMUTPACA" internalId="_zh2Ph37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:iiW6PP2THf7xjFpDr9UVkh2exqi5kro+Bn9YX3NESA==" internalId="_zh2PiH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mar" internalId="_zh2PiX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DESKTOP-5LVD0UM" internalId="_zh2Pin7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh2Pi37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mar" internalId="_zh2PjH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="BDO">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh2PjX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-BDO-SYNCHRO" internalId="_zh2Pjn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh2Pj37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ttROL9cimhBiC4Bq+vScQWACT1cLJZvd23DtHUkVdfRGfgBG" internalId="_zh2PkH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh2PkX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh2Pkn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-BDO" internalId="_zh2Pk37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ECLBbW4950+VQW7Q/XHZTwXgOFwy13DAiGOIzHA+fFdQcLeo" internalId="_zh22cH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-BDO" internalId="_zh22cX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh22cn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh22c37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh22dH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="CLINIQUE_MITTERIE">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ssl=require" internalId="_zh22dX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-MITTERIE-SYNCHRO" internalId="_zh22dn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh22d37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:QUOxGUfWxRASKH8bfES3e9ImgFy8FymuKDBQ4SVC1fMvNJ7FxhzmSLpfapgugX6pl+DAvA==" internalId="_zh22eH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh22eX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh22en7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-CLINIQUE-MITTERIE" internalId="_zh22e37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:Yg0Mt91MI5bo61aifgchp3IiC8aKlPmNsDVECiIwimnOPkeQGvQO+GJNxMsGmCbN5Ih8yw==" internalId="_zh22fH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh22fX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh22fn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh22f37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh22gH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="APIRJSO">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh22gX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-APIRJSO-SYNCHRO" internalId="_zh22gn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh22g37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:d7Xv0AoMXVCErJMszzG3K0vZ4xTYSCnPKitTtsbYzva4rbZz" internalId="_zh22hH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh22hX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh22hn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-APIRJSO-COURONNERIE" internalId="_zh22h37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:WwWg1yVnIHBFyg9SxIfXKBPHEGH6eS/Lu5isLJzsp9RcKXWU" internalId="_zh22iH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-APIRJSO-COURONNERIE" internalId="_zh22iX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh22in7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh22i37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh22jH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="Aides">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh22jX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-AIDES-SYNCHRO" internalId="_zh22jn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh22j37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:yOixJseUsrA7CXQY72BHmOKi0xNY9rukeZ0hKbYy+zOqwBgm" internalId="_zh22kH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh22kX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh22kn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-AIDES" internalId="_zh22k37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ObEQ7YFidoxRFRd2gcPixsHGsOeYQkDb55Oiqaf5FhspOoW3" internalId="_zh3dgH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-AIDES" internalId="_zh3dgX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh3dgn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh3dg37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh3dhH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="CLINIQUE_PEUPLIER">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ssl=require" internalId="_zh3dhX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-PEUPLIER-SYNCHRO" internalId="_zh3dhn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-02.bf25e9d1fa44.database.windows.net" internalId="_zh3dh37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:WsA1FWlCYDEGYR98gedCeyYL5Pn9o4cGrZatNBEiDOycO1JwWgmR4KvteBuz1Dm1G5IY+A==" internalId="_zh3diH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh3diX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh3din7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-CLINIQUELESPEUPLIERS" internalId="_zh3di37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:DGQGglsly7OhSk+2zoHIQz4vep6FhKsM3mdvWqDnTijhyQr12p3SL5dwJ8+38dYy/TQxDw==" internalId="_zh3djH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh3djX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh3djn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh3dj37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh3dkH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="LamutPacaPreProd">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh3dkX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Lamut_Synchro_STG" internalId="_zh3dkn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh3dk37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:NQ2CM/B/A0lzBZdH3ijB2lYzao5LN+WRfmnDDWy7pMUqq0cG" internalId="_zh3dlH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh3dlX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh3dln7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-LAMUTPACA-STG" internalId="_zh3dl37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:m8N7URpwv+XDhrgeMqY32QQRtzTOl7rybrkcpLq0e3EbJYLD" internalId="_zh4EkH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-LAMUTPACA-STG" internalId="_zh4EkX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh4Ekn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4Ek37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh4ElH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="ARC">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4ElX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-FONDATION-ARCENCIEL-SYNCHRO" internalId="_zh4Eln7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh4El37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ihto2vTFD8qQWfLQCrUxA1epq/Y0c9W0WKX/HtHSgGxmr9VT" internalId="_zh4EmH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh4EmX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh4Emn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-FONDATION-ARCENCIEL" internalId="_zh4Em37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:SQbXP6oYeJ/hdZKdJOcOF7E8FwtS/KtHoxpamaVHX9yL8Gzb" internalId="_zh4EnH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-FONDATION-ARCENCIEL" internalId="_zh4EnX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh4Enn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4En37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh4EoH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="GipLabeo">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4EoX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-GIPLABEO-SYNCHRO" internalId="_zh4Eon7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh4Eo37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:U7rMMB6jBTc62XlISqw3MON2pVj1DxLxvvq4aKBGUdQiDCCz" internalId="_zh4EpH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh4EpX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh4Epn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-GIPLABEO" internalId="_zh4Ep37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:/lymvgyolxKxWckNmk9SAVqnuNYLZxjqCGyszAf33yxhXKQx" internalId="_zh4EqH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-GIPLABEO" internalId="_zh4EqX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh4Eqn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4Eq37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh4ErH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="BIOTOPE">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4ErX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-BIOTOPE-SYNCHRO" internalId="_zh4Ern7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh4Er37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:dAaP8x9omMjrrZfLZdBtjgkWUjVsp9eEvCOSfyEqwL+mvqvK" internalId="_zh4EsH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh4EsX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh4Esn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-BIOTOPE" internalId="_zh4Es37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:t2KdfEkNSOKnw7K6duk95Y+jzqYXj3fGqm+JKPEXAIdUCfxJ" internalId="_zh4roH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-BIOTOPE" internalId="_zh4roX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh4ron7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4ro37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh4rpH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="Production">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4rpX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OmnipharSynchro_21.1" internalId="_zh4rpn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh4rp37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:bN6YRbWhC81zOMi8m5ZoaUVDl5iYnuiTJaM6N/MMG6Sqhhrt" internalId="_zh4rqH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh4rqX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh4rqn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-OMNIPHAR" internalId="_zh4rq37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:GKPg9EA7GOV5+g5hZO7V5N8cCGF51STM5XejLmxkrZOjnjqG" internalId="_zh4rrH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-OMNIPHAR" internalId="_zh4rrX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh4rrn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4rr37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh4rsH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="AIDES_">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4rsX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-AIDES-SYNCHRO" internalId="_zh4rsn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh4rs37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:bWXrDIja5TMfYlJoXryfCU1QuGtWQdnZPv01VZ01mpuUfxdR" internalId="_zh4rtH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh4rtX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh4rtn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-AIDES" internalId="_zh4rt37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ak7RQ1KolyzTUZwOxCaZ2+doCGnrmnNZsvj/4y0hYwPqXzvw" internalId="_zh4ruH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-AIDES" internalId="_zh4ruX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh4run7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4ru37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh4rvH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="DevChamseddine">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4rvX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OmnipharSynchro_20.6" internalId="_zh4rvn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh4rv37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:SCJA6e8Wlv32Ht/2HwnEqvdyQGGWvFrw8UOlRGi7pQ==" internalId="_zh4rwH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh4rwX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh4rwn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-OMNIPHAR-STG" internalId="_zh4rw37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:qTqrRIhnQR7IG5QFmGG76Cz2HS+gW1Y3OJIp1IasjQ==" internalId="_zh4rxH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="chams" internalId="_zh4rxX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh4rxn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh4rx37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="chams" internalId="_zh4ryH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="LaboratoireArrow">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ssl=require" internalId="_zh4ryX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-SYNCHRO-LABORATOIRE-ARROW" internalId="_zh4ryn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh4ry37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:H2TFVhlGy/gyU4irhIAQzeTr+9m4aysTvxWSA94rhg5gsws28cD2sZI1/1CrosmI1iw8JA==" internalId="_zh5SsH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh5SsX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh5Ssn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-LABORATOIRE-ARROW" internalId="_zh5Ss37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:WROY2JN8WNZnCvK/2tVy79T45UXSDu5WF/iHh7ql6FU2mtRCHebuTh/Ft9lS6YjCUGeCzw==" internalId="_zh5StH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh5StX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh5Stn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh5St37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh5SuH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="OPENLIFE">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh5SuX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-OPENLIFE-SYNCHRO" internalId="_zh5Sun7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh5Su37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:+5zrwe5l/7N9IdwShxJV5SIapQQbHtV3yqyB/3skQnLKTufX" internalId="_zh5SvH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh5SvX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh5Svn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-OPENLIFE33" internalId="_zh5Sv37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:zlc2BvLMOTG60Xx6CeO1FojmR3a+EOlDC81oInNB/Fa6f6ks" internalId="_zh5SwH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-OPENLIFE33" internalId="_zh5SwX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh5Swn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh5Sw37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh5SxH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="SOBEGI">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ssl=require" internalId="_zh5SxX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-SOBEGI-SYNCHRO" internalId="_zh5Sxn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-02.bf25e9d1fa44.database.windows.net" internalId="_zh5Sx37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:dZY0q8xbcG6hmksiiiMVwtg6rucx0AWguIrcbHYRnhgO4HcnzclpvlflnUM2Utsskxctvw==" internalId="_zh5SyH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh5SyX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh5Syn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-SOBEGI" internalId="_zh5Sy37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:7i+BcpYaYtXz1VhNLrOE1Qj85iz6RFenlBzQxIMQI+SRhwqe+804bST5c82ELdXvIbd8NA==" internalId="_zh5SzH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh5SzX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh5Szn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh5Sz37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh5S0H7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="LamutPaca">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh5S0X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-LAMUTPACA-SYNCHRO" internalId="_zh5S0n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh5S037dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:l9Cj3e9x0vHlpWVNBNooAaMrSruqV6Ffvf+C/0tOkgkwF+yG" internalId="_zh5S1H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh5S1X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh5S1n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-LAMUTPACA" internalId="_zh5S137dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:9i47DDZlF5I+K8QX0F2Ejsx/ZdiDVKhHA0urzKzpoKGbhmN1" internalId="_zh55wH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-LAMUTPACA" internalId="_zh55wX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh55wn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh55w37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh55xH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="UEMOA">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/MSSQL/DATA/TOS/Log_Error_UEMOA.csv&quot;" internalId="_zh55xX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-UEMOA-SYNCHRO" internalId="_zh55xn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUAVHRMAPS01" internalId="_zh55x37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:sen7nauo035C1a4Plj9Dq9Dzg0eYoN/R5OxiBtbU9LzkDyb4+yPp" internalId="_zh55yH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh55yX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh55yn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-UEMOA" internalId="_zh55y37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:fz61qlcWsKvRvSNMrM1nneMJiFEqBbT17xDvpjTYF7OP3NuHGomD" internalId="_zh55zH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrmaps" internalId="_zh55zX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUAVHRMAPS01" internalId="_zh55zn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh55z37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrmaps" internalId="_zh550H7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="BLUEPAPER">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ssl=require" internalId="_zh550X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-BLUEPAPER-SYNCHRO" internalId="_zh550n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh55037dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:7oKYsYwN5SozTNJFJoGSFXmkaQrzs8DuObQOiDcyHndj9CfbxzPnyDGhXwTjrOEoJYBUtQ==" internalId="_zh551H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh551X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh551n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-BLUEPAPER" internalId="_zh55137dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:GzWAnR4rn7W+lrFGGNg9xB0I8ynL/xzfHFtKjhdH1wO+RX2GnVaCeVavPpQo/ketCMiAkg==" internalId="_zh6g0H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh6g0X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh6g0n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh6g037dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh6g1H7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="REUNILAB">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh6g1X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-REUNILAB-SYNCHRO" internalId="_zh6g1n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh6g137dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:lRbh/SW97BUxsx8OPHb6fjkBEJlLOIu0tfjv8OnXgzzo5mpw" internalId="_zh6g2H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh6g2X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh6g2n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-REUNILAB" internalId="_zh6g237dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:lbZOtMLFfP1tbYr/rJ/MqnZLGdqhMfosZ38PwQZgKfKPQmn8" internalId="_zh6g3H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-REUNILAB" internalId="_zh6g3X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh6g3n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh6g337dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh6g4H7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="Test_Toucan">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh6g4X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Recette.Demo" internalId="_zh6g4n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh6g437dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:SP65xnAJIT9L1Xn6qoCYLH8P1ftSaXktg2JDePsKqza+xnfC" internalId="_zh6g5H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh6g5X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh6g5n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-OMNIPHAR" internalId="_zh6g537dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:am3NBeGrk3aI8yjA5+gKJpOjs+SURFz7/NaLC/8Ct9NEY07p" internalId="_zh6g6H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-OMNIPHAR" internalId="_zh6g6X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh6g6n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh6g637dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh6g7H7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="EKUITY">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ssl=require" internalId="_zh6g7X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-EKUITY-SYNCHRO" internalId="_zh6g7n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-02.bf25e9d1fa44.database.windows.net" internalId="_zh6g737dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:PPNTZDjrdhQzFSIHcf+wIRKU1Q79E+29tuvC4kV+zfbQ5QZ6qO7qeIWxxAzaCQgZtrekng==" internalId="_zh6g8H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh6g8X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh6g8n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-EKUITY" internalId="_zh6g837dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:uP80CGZiXpTuRdT3iXFhPXyvx+pc0ZytGLEyNwEZa63RKOcApzBemqmEYR5OydrlizFw3w==" internalId="_zh6g9H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh6g9X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh6g9n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh6g937dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh6g-H7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="ALPHI">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh6g-X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ALPHI-SYNCHRO" internalId="_zh6g-n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh6g-37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:WgyybLokz+ZL7STtunYKbbMyuQJdS+NT6Hze04ixuPX4gT9N" internalId="_zh6g_H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh6g_X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh6g_n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ALPHI" internalId="_zh6g_37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:iBFMG7LTAdSqr/LxthiqnIrPYwQMo2MKwoFC2/p7FhZA4FPP" internalId="_zh6hAH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ALPHI" internalId="_zh6hAX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh6hAn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh6hA37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh6hBH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="EPEGA">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh6hBX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-EPEGA-SYNCHRO" internalId="_zh6hBn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh6hB37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:j6YJktlyENdsbbOi/F1KOGxrcq3p1zwW3NnR/TPbTxE41uDa" internalId="_zh7H4H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh7H4X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh7H4n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-EPEGA" internalId="_zh7H437dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:vE0rbCYqiB/1oUM9Fz8+e4czwGDVnZ3ZqqXa5mJ3tT/+ZYnO" internalId="_zh7H5H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-EPEGA" internalId="_zh7H5X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh7H5n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7H537dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh7H6H7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="MT71">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7H6X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-MT71-SYNCHRO" internalId="_zh7H6n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh7H637dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:CQXLE+d8gGFgWthi7b0TqxzxrDFWu7+g6nHxjhcHiytaBIUO" internalId="_zh7H7H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh7H7X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh7H7n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-MT71" internalId="_zh7H737dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ECBbLgMcR45ZzUHX87TcURUbR6znPpZhKdUAEXo7yZWwQ8Yq" internalId="_zh7H8H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-MT71" internalId="_zh7H8X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh7H8n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7H837dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh7H9H7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="CNEXIA">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7H9X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-CNEXIA-SYNCHRO" internalId="_zh7H9n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh7H937dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:huC0F89Yt5PJPf20JXlWxoxkaNOeBA9ovaJpNrjYy/xX2ueS" internalId="_zh7H-H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh7H-X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh7H-n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-CNEXIA" internalId="_zh7H-37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:WEKoWRAlZblacLFG17fKs5gMCyiJ8KL7AkBR9KagsEoQ7kXZ" internalId="_zh7H_H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-CNEXIA" internalId="_zh7H_X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh7H_n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7H_37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh7IAH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="ASSAD_STG">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7IAX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ASSAD-SYNCHRO" internalId="_zh7IAn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh7IA37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:673Bf7FEP4m9gZEVBNszOWiKDYIOE9Y0cB8uZzMvDHIjdOb5" internalId="_zh7IBH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh7IBX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh7IBn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ASSAD-STG" internalId="_zh7IB37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:MRS1vzaGjy3WkWpItHsEfw/kbfFueCz1dKrIte89wSbnkggU" internalId="_zh7ICH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ASSAD" internalId="_zh7ICX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh7ICn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7IC37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh7IDH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="EGETRA">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7IDX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-EPEGA-SYNCHRO" internalId="_zh7IDn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh7ID37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:eGvV/q1FusZzKsKKM2IgzLgVtAfcdRNLowzuci7fznhsNHNL" internalId="_zh7u8H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh7u8X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh7u8n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-EPEGA" internalId="_zh7u837dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:PqzAkk8OhQkRfs4NZAL8SwrJybTAIqDWRa/BNqLOM7+/AYBr" internalId="_zh7u9H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-EPEGA" internalId="_zh7u9X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh7u9n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7u937dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh7u-H7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="SEDNA">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ssl=require" internalId="_zh7u-X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-SEDNA-SYNCHRO" internalId="_zh7u-n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh7u-37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:HxM0FAoTV8iwM6TAnfeBVnO0FBYPoCsUhPxa17U2iDuh9nEPk3+iz+3l637EwEJwoeO4wg==" internalId="_zh7u_H7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh7u_X7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh7u_n7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-SEDNA" internalId="_zh7u_37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:FNTN2EguRFGNPj0yVJBiECD+jpby0RJxmg7k6e9BIUYZ0NxSMp4DERZE98ybX2x9sYIcLA==" internalId="_zh7vAH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh7vAX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-02.bf25e9d1fa44.database.windows.net" internalId="_zh7vAn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7vA37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh7vBH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="MONOPRIX_STG">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7vBX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-MONOPRIX-SYNCHRO" internalId="_zh7vBn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh7vB37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:HrtwvvsOBrMuAgTEDX4a/rWrIRfG0RX05ZWH0LXe/I0rx32r" internalId="_zh7vCH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh7vCX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh7vCn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-GE-MO-STG" internalId="_zh7vC37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:8Rpc3cluTehjBSWDVTFr+bPvOG9EkoeaURS6I8iuZUcEdrpS" internalId="_zh7vDH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-GE-MO" internalId="_zh7vDX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh7vDn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7vD37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh7vEH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="ROCKFELLER">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh7vEX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ROCKEFFELLER-SYNCHRO" internalId="_zh7vEn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh7vE37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:82WqNRw6M/940Su3y0nMGzfX/6LulJ44+9/Q6Fg9ucEFOcmX" internalId="_zh8WAH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh8WAX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh8WAn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ROCKEFELLER" internalId="_zh8WA37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:hqGikDnODzbTg4dtVVnvDcrbpaIE90fYbZ/ex7OABG6Sq9Sw" internalId="_zh8WBH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ROCKEFELLER" internalId="_zh8WBX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh8WBn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh8WB37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh8WCH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="DVM">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ssl=require" internalId="_zh8WCX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-DVM-SYNCHRO" internalId="_zh8WCn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-02.bf25e9d1fa44.database.windows.net" internalId="_zh8WC37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:NylI6CPYtRlXTit+sLSutYWpkYmvOmL7fYpDGOnboP1mL3TWkY/7Fc+PUNYhh4AMFHtGeQ==" internalId="_zh8WDH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh8WDX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh8WDn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-DIGITAL-VIRGO" internalId="_zh8WD37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:fZQuIdoituVz3CygKa0qMqRstp2xIm6scRvutSqDyfUelU5QT3Hyr0ln4D1tLY+zGsoW7A==" internalId="_zh8WEH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh8WEX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh8WEn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh8WE37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh8WFH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="MONOPRIX">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ssl=require" internalId="_zh8WFX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-MONOPRIX-SYNCHRO" internalId="_zh8WFn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-02.bf25e9d1fa44.database.windows.net" internalId="_zh8WF37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:O/2ss+xltk++3iQeHin34aRAfeoSOUlvyP3mMx/D1/IQIJAzMv4tr3zlkKUT5GO2Wp4RZA==" internalId="_zh8WGH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh8WGX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh8WGn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-GE-MO" internalId="_zh8WG37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:SWLxeMsSw41JFS0dG2FdUr0645O7JLOBs/KU0w78jHvjI2h01xnXib6f11W96nxGh4alVw==" internalId="_zh8WHH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh8WHX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net" internalId="_zh8WHn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh8WH37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRMAPS" internalId="_zh8WIH7dEe6dIde3NFZiTw"/>
+  </context>
+  <context confirmationNeeded="false" name="ASSAD">
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh8WIX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ASSAD-SYNCHRO" internalId="_zh8WIn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_zh8WI37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:fJCmeWTot5mjgSuqZbqUd9w5OdmG37hbXWixdQB0foFuA0ZP" internalId="_zh89EH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433" internalId="_zh89EX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OUT" internalId="_zh89En7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ASSAD" internalId="_zh89E37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:liJSlucjZx+4a5wRO2JqP/EuBjNKskK2vCXiU5+HT8fYTocU" internalId="_zh89FH7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="HRM-ASSAD" internalId="_zh89FX7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ListenerProd2" internalId="_zh89Fn7dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_zh89F37dEe6dIde3NFZiTw"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SSIS" internalId="_zh89GH7dEe6dIde3NFZiTw"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Program Files (x86)/TOS_DI-8.0.1/studio/ContextEssai.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:wsSBvQzaHx/t+tcgbb+8gR0phSPpDvDrARyNMZLn" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Program Files (x86)/TOS_DI-8.0.1/studio/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:uMis63bEIRDpbI6SOhUrI68b8tjXOopQSkbtoYvt" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <routinesParameter id="_nMfLpoQSEey3RoBkLpz8ag" name="DataOperation"/>
+    <routinesParameter id="_nM73loQSEey3RoBkLpz8ag" name="Mathematical"/>
+    <routinesParameter id="_nNFBhoQSEey3RoBkLpz8ag" name="Numeric"/>
+    <routinesParameter id="_nNOygIQSEey3RoBkLpz8ag" name="Relational"/>
+    <routinesParameter id="_nNOyioQSEey3RoBkLpz8ag" name="StringHandling"/>
+    <routinesParameter id="_nNYjhoQSEey3RoBkLpz8ag" name="TalendDataGenerator"/>
+    <routinesParameter id="_nNhtcIQSEey3RoBkLpz8ag" name="TalendDate"/>
+    <routinesParameter id="_nNredoQSEey3RoBkLpz8ag" name="TalendStringUtil"/>
+    <routinesParameter id="_nNhteoQSEey3RoBkLpz8ag" name="TalendString"/>
+  </parameters>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.sourceHost"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.sourceSchema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.sourceDB"/>
+    <elementParameter field="TEXT" name="USER" value="context.sourceDBUsername"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mhE7udS6PKuinW0hggKAQOeRPojrCkoDSfYk7RbgtjSyVA27+oKm907Za5S1DVJyLHtoqw=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#xD;&#xA;SELECT&#xD;&#xA;su.[Id] As [UserId],&#xD;&#xA;su.[RegistrationNum] as [RegistrationNum],&#xD;&#xA;su.[PayrollNum] as [PayrollNum],&#xD;&#xA;Null as IDSource,&#xD;&#xA;Vt.Id as [AbsenceTypeId],&#xD;&#xA;V.Quota as Quota,&#xD;&#xA;V.[StartDate] as [QuotaStartdate],&#xD;&#xA;convert(nvarchar(255),HASHBYTES('SHA2_256',CONCAT(su.[Id],su.[RegistrationNum],Vt.Id,V.Quota,SWITCHOFFSET(V.[StartDate],120))),2) AS HashValue&#xD;&#xA;from [HR].[VacationUserQuota] V&#xD;&#xA;inner join [security].[User] su on su.Id = v.UserId and su.IsDeleted =0 and su.RegistrationNum is not null&#xD;&#xA;inner join HR.UserInLegalEntity UILE on su.Id = UILE.UserId&#xD;&#xA;left join [HR].[VacationType] Vt on vt.Id = v.VacationTypeId&#xD;&#xA;WHERE V.[IsDeleted] = 0 AND (su.IsExternal = 0 or su.IsExternal is null)&quot;&#xD;&#xA;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="UserId"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RegistrationNum"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PayrollNum"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IDSource"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AbsenceTypeID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Quota"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QuotaStartdate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HashValue"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="HRmaps"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" defaultValue="" key="false" length="10" name="UserId" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RegistrationNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PayrollNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="IDSource" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="AbsenceTypeID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="18" name="Quota" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="QuotaStartdate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="NVARCHAR" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="HashValue" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_E4RYEBTEEe6tvK6fLl78Kw-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
+    <elementParameter field="TEXT" name="JACCARD" value="0" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="no_match" name="Ajout">
+      <column comment="" defaultValue="" key="false" length="10" name="UserId" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RegistrationNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PayrollNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="IDSource" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="AbsenceTypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="18" name="Quota" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="QuotaStartdate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="MAJ">
+      <column comment="" defaultValue="" key="false" length="10" name="UserId" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RegistrationNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PayrollNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="IDSource" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="AbsenceTypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="18" name="Quota" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="QuotaStartdate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="NVARCHAR" type="id_Date" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="Ajout" activateCondensedTool="true" rejectInnerJoin="true">
+        <mapperTableEntries name="UserId" expression="row1.UserId " type="id_Integer"/>
+        <mapperTableEntries name="RegistrationNum" expression="row1.RegistrationNum " type="id_String" nullable="true"/>
+        <mapperTableEntries name="PayrollNum" expression="row1.PayrollNum " type="id_String" nullable="true"/>
+        <mapperTableEntries name="IDSource" expression="row1.IDSource " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="AbsenceTypeID" expression="row1.AbsenceTypeID  " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Quota" expression="row1.Quota " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="QuotaStartdate" expression="row1.QuotaStartdate " type="id_Date" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="MAJ" expressionFilter="(!(row1.HashValue.equals( row2.HashValue)))" activateExpressionFilter="true">
+        <mapperTableEntries name="UserId" expression="row1.UserId " type="id_Integer"/>
+        <mapperTableEntries name="RegistrationNum" expression="row1.RegistrationNum " type="id_String" nullable="true"/>
+        <mapperTableEntries name="PayrollNum" expression="row1.PayrollNum " type="id_String" nullable="true"/>
+        <mapperTableEntries name="IDSource" expression="row1.IDSource " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="AbsenceTypeID" expression="row1.AbsenceTypeID " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Quota" expression="row1.Quota " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="QuotaStartdate" expression="row1.QuotaStartdate " type="id_Date" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="UserId" type="id_Integer"/>
+        <mapperTableEntries name="RegistrationNum" type="id_String" nullable="true"/>
+        <mapperTableEntries name="PayrollNum" type="id_String" nullable="true"/>
+        <mapperTableEntries name="IDSource" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="AbsenceTypeID" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Quota" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="QuotaStartdate" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="HashValue" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
+        <mapperTableEntries name="ABS_CNT_Id" type="id_Integer"/>
+        <mapperTableEntries name="AbsenceTypeID" expression="row1.AbsenceTypeID " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="Record_EndDate" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="HashValue" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DObLjtphdBs5TsD3DHGzkyR50SMHRYXfyKt9GcuaGb2ZEZiIWIBuBHHUzY8="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT [ABS_CNT_Id]&#xD;&#xA;      ,[AbsenceTypeID]&#xD;&#xA;     , [Record_EndDate]&#xD;&#xA;      ,convert(nvarchar(255),[HashValue],2)  as [HashValue]&#xD;&#xA;  FROM [OUT].[AbsenceCompteur]  WHERE [Record_EndDate] IS NULL &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ABS_CNT_Id"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AbsenceTypeID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Record_EndDate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HashValue"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="Synchro"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_2">
+      <column comment="" defaultValue="" key="false" length="-1" name="ABS_CNT_Id" nullable="false" pattern="" precision="-1" sourceType="INT IDENTITY" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AbsenceTypeID" nullable="true" pattern="" precision="-1" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Record_EndDate" nullable="true" pattern="" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="HashValue" nullable="true" pattern="" precision="-1" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:5kIiihXGhSRY8MNki0+CS2tROv+zsjOIfbQnKzL+GwhEVC572io9Igyy5gA="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;AbsenceCompteur&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" value="false" show="false"/>
+    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" value="UserId" show="false"/>
+    <elementParameter field="TEXT" name="START_VALUE" value="1" show="false"/>
+    <elementParameter field="TEXT" name="STEP" value="1" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="UserId"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RegistrationNum"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PayrollNum"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IDSource"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AbsenceTypeID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Quota"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QuotaStartdate"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="IGNORE_DATE_OUTOF_RANGE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Synchro"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="no_match" name="tDBOutput_1">
+      <column comment="" defaultValue="" key="false" length="10" name="UserId" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RegistrationNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PayrollNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="IDSource" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="AbsenceTypeID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="18" name="Quota" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="QuotaStartdate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="no_match" name="REJECT">
+      <column comment="" defaultValue="" key="false" length="10" name="UserId" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RegistrationNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PayrollNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="IDSource" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="AbsenceTypeID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="18" name="Quota" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="QuotaStartdate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1sTvSNiYVyBFGuS0qJCsjy+Hohq6OuferLqF5BEDBaU8MhO35a13rDmZRJE="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;UPDATE[OUT].[AbsenceCompteur]&#xD;&#xA;   SET [Record_EndDate] = getdate() &#xD;&#xA; WHERE [ABS_CNT_Id] = &quot; +row2.ABS_CNT_Id"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="UserId" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_1">
+      <column comment="" defaultValue="" key="false" length="10" name="UserId" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RegistrationNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PayrollNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="IDSource" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="AbsenceTypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="18" name="Quota" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="QuotaStartdate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="NVARCHAR" type="id_Date" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="" key="false" length="10" name="UserId" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RegistrationNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PayrollNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="IDSource" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="AbsenceTypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="18" name="Quota" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="QuotaStartdate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="NVARCHAR" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:D8wGUcTv25E+AcOGSA6LwxCDaSKenthPuomY3OkPclzAOGHqR28VHtDDMng="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;AbsenceCompteur&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" value="false" show="false"/>
+    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" value="UserId" show="false"/>
+    <elementParameter field="TEXT" name="START_VALUE" value="1" show="false"/>
+    <elementParameter field="TEXT" name="STEP" value="1" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="UserId"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RegistrationNum"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PayrollNum"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IDSource"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AbsenceTypeID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Quota"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QuotaStartdate"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="IGNORE_DATE_OUTOF_RANGE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Synchro"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBOutput_2">
+      <column comment="" defaultValue="" key="false" length="10" name="UserId" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RegistrationNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PayrollNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="IDSource" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="AbsenceTypeID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="18" name="Quota" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="QuotaStartdate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="" key="false" length="10" name="UserId" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="RegistrationNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PayrollNum" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="IDSource" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="AbsenceTypeID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="18" name="Quota" nullable="true" pattern="" precision="2" sourceType="DECIMAL" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="QuotaStartdate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="Ajout" lineStyle="0" metaname="Ajout" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_1" target="tDBOutput_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="IsExported"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RequestedDays"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AbsenceRequestID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CompanyId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="VacationTypeId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="StartHalfDay"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RequestDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ValidationDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RequestDateValidity"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Enddate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="LastValidRegistrationNum"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Startdate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EndHalfDay"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="status"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Ajout" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="MAJ" lineStyle="0" metaname="MAJ" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tDBRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="QuotaStartdate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="IDSource"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Quota"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PayrollNum"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="UserId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RegistrationNum"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AbsenceTypeID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="IsExported"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RequestedDays"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AbsenceRequestID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CompanyId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="VacationTypeId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="StartHalfDay"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RequestDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ValidationDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RequestDateValidity"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Enddate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="LastValidRegistrationNum"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Startdate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EndHalfDay"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="status"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="MAJ" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tDBOutput_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="IsExported"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RequestedDays"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AbsenceRequestID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CompanyId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="VacationTypeId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="StartHalfDay"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RequestDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ValidationDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RequestDateValidity"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Enddate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="LastValidRegistrationNum"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Startdate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EndHalfDay"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="status"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="SOBEGI" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value="&quot;D:/MSSQL/DATA/TOS/OUT/OCTIME DATA&quot;"/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value="22"/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value="&quot;/data&quot;"/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value="&quot;octestdev&quot;"/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value="&quot;sftp.octime.net&quot;"/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value=""/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value=""/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="PreProduction">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="Synchro_20.6"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:ye6xia71sfMEi/KTdTUezPnU/3cwvKK9ChODEUsUQ6KmeShd"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-OMNIPHAR-STG"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value=""/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-OMNIPHAR-STG"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="Production">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OmnipharSynchro_21.1"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:wRdhfO0U16EIs6KC0j6P2zfp/5PTv50uPEUxZzUvD/9QuzCO"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-OMNIPHAR"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:L9KY+l4Pk5jzRGFWOIq0+48B9X1esjXH7gZR9pYx+BNV3WT7"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-OMNIPHAR"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="DevChamseddine">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OmnipharSynchro_20.6"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:2UAjBjTQ0CLxzUzKWVLVkHcwGyrlHq9n758h6qJQXQ=="/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-OMNIPHAR-STG"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:m7u5Dfl2yk98HzWL/dZOWwXerai9ZW+LjD/aMoLJ9g=="/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="chams"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="chams"/>
+  </context>
+  <context confirmationNeeded="false" name="Aides">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-AIDES-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:f2i+abgvkgNZWCKPYiHz8c4w9XhY3LyY3YCE5j6IahOdNn3n"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-AIDES"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:7jwdIJ3sqbkE6512Ew1g3Dd948Jxo+hUZ16FJMS/0MiyTBoF"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-AIDES"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="QuickMS">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-GIPLABEO-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:Y9vP1NrfsjdXiXdq+bGbRX1rquPC2vjet+F8dk7b7yx7Mr6Y"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-GIPLABEO"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:aTmdOyN5sQBHNOaWxw65HcEmretVPcuEYly7fANHC/7uPcNa"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-GIPLABEO"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="LamutPaca">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-LAMUTPACA&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value="&quot;LAMUT_PACA_FILE.csv&quot;"/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value="&quot;D:/MSSQL/DATA/TOS/OUT/OCTIME DATA/Lamut_Paca&quot;"/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value="22"/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value="&quot;/data&quot;"/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value="&quot;hrm.lamutpaca&quot;"/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value="&quot;sftp.octime.net&quot;"/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;HRM-LAMUTPACA-SYNCHRO&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-LAMUTPACA-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:s4mv4iG6jF/1yge56yZbXT8LWrxxsQvXXVgA7PvWJpiSPj/n"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-LAMUTPACA"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:gGhorcUUiSGBxsJz/+5WgYCQ4t6U+nDrLu5dCt2DOa//I00D"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-LAMUTPACA"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="GipLabeo">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-GIPLABEO-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:tiY5RwQdcUJylqs5eHp6GXikR87I9YpmGMe4Cn3f4d96ZESt"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-GIPLABEO"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:zANlfDrzY6UtIgVAQtin/s3ssMdT84AcFViz88NzstbVNbma"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-GIPLABEO"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="AiderSante">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-AIDERSANTE&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value="&quot;AIDER_SANTE_FILE.csv&quot;"/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value="&quot;D:/MSSQL/DATA/TOS/OUT/OCTIME DATA/Aider_Sante&quot;"/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value="22"/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value="&quot;/data&quot;"/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value="&quot;octestdev&quot;"/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value="&quot;sftp.octime.net&quot;"/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;HRM-AIDERSANTE-SYNCHRO&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-AIDERSANTE-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:DfznD8o35/GTSUNkYC/xapoZX9kVm0SHw9OgeUnV7bJD8B8g"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-AIDERSANTE"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:s/KijJIXtj8aLDPagnFtv7aRrdUrUGpJnhCJEKj50EbqAqAi"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-AIDERSANTE"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="SOBEGI">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ssl=require"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-SOBEGI-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="hrm-sqlmi-02.bf25e9d1fa44.database.windows.net"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:3latl/53/yx4uZz2sRnzzkLk52QAwi2Pb1qAFTe5wQJuGX3/H4BMDjiapmAKFo2dmxPmKg=="/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-SOBEGI"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:6xNCGm5ZpCqqVmnaHBiFpAxddR9vrV9XGbKkidlMrhuTsnQlqVe/hHMjB2pkGEBuYLHC9Q=="/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRMAPS"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRMAPS"/>
+  </context>
+  <context confirmationNeeded="false" name="APIRJSO">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-APIRJSO-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:7yTd0QDOHyDTUxBXj0Xd4tU8N8CjxIglxj0qzupg2ZtzDlUm"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-APIRJSO-COURONNERIE"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:XxoBEigb03yTzJrC46VZUzZ5Fc7Tn1DYaDNLRmYY+ud6kEjD"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-APIRJSO-COURONNERIE"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Program Files (x86)/TOS_DI-8.0.1/studio/ContextEssai.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:wsSBvQzaHx/t+tcgbb+8gR0phSPpDvDrARyNMZLn" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/SRV.ADMIN2023/Desktop/INTERFACES/TOS_ESB-20200219_1130-V7.3.1/Studio/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:yoVagCvYEeT9KGmIFPG4QPVUTBEs+xBPZ5S659p0" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <routinesParameter id="_zuiAAIGBEeuO4bZBRaru_A" name="DataOperation"/>
+    <routinesParameter id="_z8kcAIGBEeuO4bZBRaru_A" name="Mathematical"/>
+    <routinesParameter id="_z-rU0IGBEeuO4bZBRaru_A" name="Numeric"/>
+    <routinesParameter id="_z_HZsIGBEeuO4bZBRaru_A" name="Relational"/>
+    <routinesParameter id="_z_9uQIGBEeuO4bZBRaru_A" name="StringHandling"/>
+    <routinesParameter id="_0BjCoIGBEeuO4bZBRaru_A" name="TalendDataGenerator"/>
+    <routinesParameter id="_0ConwIGBEeuO4bZBRaru_A" name="TalendDate"/>
+    <routinesParameter id="_0FK-YIGBEeuO4bZBRaru_A" name="TalendStringUtil"/>
+    <routinesParameter id="_0EUp0IGBEeuO4bZBRaru_A" name="TalendString"/>
+  </parameters>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.sourceHost"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.sourceSchema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.sourceDB"/>
+    <elementParameter field="TEXT" name="USER" value="context.sourceDBUsername"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:as0ZQyKiVmNQBX5u5eqJsj136vp0Axoxusx4dsESXHO/N5Kk9kdD6ZgnwoY5uKfSfvdG/g=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xD;&#xA;      p.[PayrollNum] as PositionID&#xD;&#xA;      ,[ProfessionName] as PositionTitle&#xD;&#xA;&#x9;  ,Code as CodeID&#xD;&#xA;&#x9;  ,p.GtaId  AS GtaId&#xD;&#xA;&#x9;  ,pt.Id as TypeID&#xD;&#xA;&#x9;  ,pt.ProfessionTypeName as PositionLevelName&#xD;&#xA;&#x9;  ,p.[Index] as [Index]&#xD;&#xA;&#x9;  ,p.Coefficient as Coefficient&#xD;&#xA;&#x9;  ,p.[Level] as [Level]&#xD;&#xA;     , convert(nvarchar(255),hashbytes('SHA2_256',concat(p.[PayrollNum],[ProfessionName],Code,p.GtaId,pt.Id,pt.ProfessionTypeName,p.[Index],[Coefficient],[Level])),2) as HashValue&#xD;&#xA;  FROM [HR].[Profession] p &#xD;&#xA;  left join[HR].[ProfessionType] pt on p.Id=pt.Id where p.IsDeleted=0&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PositionID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PositionTitle"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CodeID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GtaId"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TypeID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PositionLevelName"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Index"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Coefficient"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Level"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HashValue"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="HRmaps"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" key="false" length="255" name="PositionID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="1073741823" name="PositionTitle" nullable="false" pattern="" precision="0" sourceType="NTEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CodeID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="GtaId" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PositionLevelName" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Index" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Coefficient" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Level" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="HashValue" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_7Ym90F5OEeyKnZXLln1iTA-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
+    <elementParameter field="TEXT" name="JACCARD" value="0" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="no_match" name="no_match">
+      <column comment="" key="false" length="255" name="PositionID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="1073741823" name="PositionTitle" nullable="false" pattern="" precision="0" sourceType="NTEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CodeID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="GtaId" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PositionLevelName" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Index" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Coefficient" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Level" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FLOW" name="match">
+      <column comment="" key="false" length="255" name="PositionID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="1073741823" name="PositionTitle" nullable="false" pattern="" precision="0" sourceType="NTEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CodeID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="GtaId" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PositionLevelName" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Index" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Coefficient" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Level" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="no_match" activateCondensedTool="true" rejectInnerJoin="true">
+        <mapperTableEntries name="PositionID" expression="row1.PositionID " type="id_String" nullable="true"/>
+        <mapperTableEntries name="PositionTitle" expression="row1.PositionTitle " type="id_String"/>
+        <mapperTableEntries name="CodeID" expression="row1.CodeID " type="id_String" nullable="true"/>
+        <mapperTableEntries name="GtaId" expression="row1.GtaId " type="id_String" nullable="true"/>
+        <mapperTableEntries name="TypeID" expression="row1.TypeID " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="PositionLevelName" expression="row1.PositionLevelName " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Index" expression="row1.Index " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Coefficient" expression="row1.Coefficient " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Level" expression="row1.Level " type="id_String" nullable="true"/>
+      </outputTables>
+      <outputTables sizeState="INTERMEDIATE" name="match" expressionFilter="(!(row1.HashValue.equals( row2.HashValue)))" activateExpressionFilter="true">
+        <mapperTableEntries name="PositionID" expression="row1.PositionID " type="id_String" nullable="true"/>
+        <mapperTableEntries name="PositionTitle" expression="row1.PositionTitle " type="id_String"/>
+        <mapperTableEntries name="CodeID" expression="row1.CodeID " type="id_String" nullable="true"/>
+        <mapperTableEntries name="GtaId" expression="row1.GtaId " type="id_String" nullable="true"/>
+        <mapperTableEntries name="TypeID" expression="row1.TypeID " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="PositionLevelName" expression="row1.PositionLevelName " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Index" expression="row1.Index " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Coefficient" expression="row1.Coefficient " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Level" expression="row1.Level " type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="PositionID" type="id_String" nullable="true"/>
+        <mapperTableEntries name="PositionTitle" type="id_String"/>
+        <mapperTableEntries name="CodeID" type="id_String" nullable="true"/>
+        <mapperTableEntries name="GtaId" type="id_String" nullable="true"/>
+        <mapperTableEntries name="TypeID" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="PositionLevelName" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Index" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Coefficient" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Level" type="id_String" nullable="true"/>
+        <mapperTableEntries name="HashValue" type="id_String" nullable="true"/>
+      </inputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row2" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
+        <mapperTableEntries name="SK_Position" type="id_Integer"/>
+        <mapperTableEntries name="PositionID" expression="row1.PositionID " type="id_String" nullable="true" operator="="/>
+        <mapperTableEntries name="Record_EndDate" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="HashValue" expression="" type="id_String" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:QX9GddVmeqaAqQ9s5ZYNYK6rCpwSfiVO7N3zh1JEwTUFKoN2vFZWsSWYpWQ="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT [SK_Position]&#xD;&#xA;      ,[PositionID]&#xD;&#xA;     , [Record_EndDate]&#xD;&#xA;      ,convert(nvarchar(255),[HashValue],2)  as [HashValue]&#xD;&#xA;  FROM [OUT].[Position]  WHERE [Record_EndDate] IS NULL order by [PositionID]&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="SK_Position"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PositionID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Record_EndDate"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HashValue"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="Synchro"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_2">
+      <column comment="" defaultValue="" key="false" length="10" name="SK_Position" nullable="false" pattern="" precision="0" sourceType="INT IDENTITY" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PositionID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="Record_EndDate" nullable="true" pattern="" precision="3" sourceType="DATETIME" type="id_Date" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="HashValue" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:li6cW6zUcS7UGA6QRo69fiT3tyJEAuIyEam3cF3hNM1CjfFKQXjP7KRd1hk="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Position&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" value="false" show="false"/>
+    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" value="PositionID" show="false"/>
+    <elementParameter field="TEXT" name="START_VALUE" value="1" show="false"/>
+    <elementParameter field="TEXT" name="STEP" value="1" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PositionID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PositionTitle"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CodeID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GtaId"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TypeID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PositionLevelName"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Index"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Coefficient"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Level"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="IGNORE_DATE_OUTOF_RANGE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Synchro"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="no_match" name="tDBOutput_1">
+      <column comment="" key="false" length="255" name="PositionID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="1073741823" name="PositionTitle" nullable="false" pattern="" precision="0" sourceType="NTEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CodeID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="GtaId" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PositionLevelName" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Index" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Coefficient" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Level" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="no_match" name="REJECT">
+      <column comment="" key="false" length="255" name="PositionID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="1073741823" name="PositionTitle" nullable="false" pattern="" precision="0" sourceType="NTEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CodeID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="GtaId" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PositionLevelName" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Index" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Coefficient" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Level" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZZtHdEm4A6ztSXsg/dZ72gtoRFuvOW5U/71y+TpN4HzHyxCH1K1bbxTkq5U="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;UPDATE [OUT].[Position]&#xD;&#xA;   SET [Record_EndDate] = getdate() &#xD;&#xA; WHERE [SK_Position] = &quot; +row2.SK_Position"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="PositionID" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_1">
+      <column comment="" key="false" length="255" name="PositionID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="1073741823" name="PositionTitle" nullable="false" pattern="" precision="0" sourceType="NTEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CodeID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="GtaId" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PositionLevelName" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Index" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Coefficient" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Level" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="255" name="PositionID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="1073741823" name="PositionTitle" nullable="false" pattern="" precision="0" sourceType="NTEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CodeID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="GtaId" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PositionLevelName" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Index" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Coefficient" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Level" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mYtXElVcQWw2gd850nui7It7lPu/qPo+N582d1ReQJgusL5fnV7CO0FCk10="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;Position&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" value="false" show="false"/>
+    <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" value="PositionID" show="false"/>
+    <elementParameter field="TEXT" name="START_VALUE" value="1" show="false"/>
+    <elementParameter field="TEXT" name="STEP" value="1" show="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="id_MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false" show="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" value="&quot;&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PositionID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PositionTitle"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CodeID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="GtaId"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TypeID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PositionLevelName"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Index"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Coefficient"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Level"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="IGNORE_DATE_OUTOF_RANGE" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Synchro"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBOutput_2">
+      <column comment="" key="false" length="255" name="PositionID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="1073741823" name="PositionTitle" nullable="false" pattern="" precision="0" sourceType="NTEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CodeID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="GtaId" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PositionLevelName" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Index" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Coefficient" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Level" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="255" name="PositionID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="1073741823" name="PositionTitle" nullable="false" pattern="" precision="0" sourceType="NTEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CodeID" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="GtaId" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="TypeID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="PositionLevelName" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Index" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Coefficient" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Level" nullable="true" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="no_match" lineStyle="0" metaname="no_match" offsetLabelX="25" offsetLabelY="9" outputId="1" source="tMap_1" target="tDBOutput_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="HashValue"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CompanySeniorityDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GroupName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Remuneration3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Remuneration4"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Remuneration1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Remuneration2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="TrialRenewalEndDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PositionID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="WorkingTypeID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="OrderNumber"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Index"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EstablishmentId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PayslipModelID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="StartDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityName4"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CompanyName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityName5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="WorkingDurationID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityName2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityName3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ReasonCDD"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="WorkingDurationMonth"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityName1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="RetirementCategoryID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="WorkingDurationYear"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityName8"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityName9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityName6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityName7"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CCNName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ProfessionalStatusID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EndingReasonID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="OtherRetirement"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ServiceID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SupportTypeID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityId7"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ReferenceSalary"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityId6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CategorialStatusID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityId9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityId8"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ReplacedID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityId3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DepartmentName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityId2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="TrialRenewalStartDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityId5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Level"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityId4"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="BreakingReasonID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EntityId1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Remuneration5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="TrialEndDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="TrialStartDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CCNID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="WorkingUnitID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ContractTypeId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="WorkDurationDay"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EndTitle"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EstablishmentName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="WorkPlace"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="IncreaseRateLess10"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AdministrativeSituationID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="IncreaseRateAbove10"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Coefficient"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CompanyId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Reference"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="WorkWeekTypeID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Title"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PositionReplacedID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EndDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CategoryStatusID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="WorkingDurationWeek"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GroupId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="HiringKind"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CCNStatusID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ReasonID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DepartmentId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="NationalityId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DependentIsHandicaped"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Dependent_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DependentRelationID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="FirstName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="LastName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Gender"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="IsDependent"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="TypeID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PositionTitle"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CodeID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PositionLevelName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GtaId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="no_match" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="match" lineStyle="0" metaname="match" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tDBRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="CompanySeniorityDate"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="NationalityId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DependentIsHandicaped"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Dependent_ID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DependentRelationID"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="FirstName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="LastName"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Gender"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="IsDependent"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="GtaId"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="match" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tDBOutput_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="SyncPosition"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

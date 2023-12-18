@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="SOBEGI" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value="&quot;D:/MSSQL/DATA/TOS/OUT/OCTIME DATA&quot;"/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value="22"/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value="&quot;/data&quot;"/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value="&quot;octestdev&quot;"/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value="&quot;sftp.octime.net&quot;"/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="Context_File" prompt="Context_File?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value=""/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value=""/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="PreProduction">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="Context_File" prompt="Context_File?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="Synchro_20.6"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:ShGxQdhgNpVm9DbGC58MAyl4Kx+QOM9PVsIy6QkTkS5rdYxn"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-OMNIPHAR-STG"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value=""/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-OMNIPHAR-STG"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="Production">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="Context_File" prompt="Context_File?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OmnipharSynchro_21.1"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:LBZmEIdk5dxWTJXFBD9lGBopxEE52ltSitVdkM7TpT3eNMSv"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-OMNIPHAR"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:ywmzMoUSRiVoJU8z7w8T/BWEnTbHA8oGBxVHIBsbbdZPA8PS"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-OMNIPHAR"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="DevChamseddine">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="Context_File" prompt="Context_File?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OmnipharSynchro_20.6"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:rTvECG/yMUl70ArWWT88dVouxOqbL5CWYCGOTSPKXQ=="/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-OMNIPHAR-STG"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:M2Im3lfCqnM6YU1u9vEORPNoZ3qpkFr91cq1GrOFIg=="/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="chams"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="chams"/>
+  </context>
+  <context confirmationNeeded="false" name="Aides">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="Context_File" prompt="Context_File?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-AIDES-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:z5jMeiw4qKrBby0C/Ck/tjj2fMhBDp+2EKcK9Kh/K4unNnVI"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-AIDES"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:4/1ynXudwJ7dS2yDSFZXz4UaiNME9PKHb7WnT/KCJqVVJq3m"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-AIDES"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="QuickMS">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="Context_File" prompt="Context_File?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-GIPLABEO-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:Gvu5BrlLevJW1zzue2uj2Q5JEoeaslm89ks5VdcGhDzemA1s"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-GIPLABEO"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:J5bGnjWkvgaHXQrl1sRhwSOh4vtsRx1zFBoLWRH8fSp2//xR"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-GIPLABEO"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="LamutPaca">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-LAMUTPACA&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value="&quot;LAMUT_PACA_FILE.csv&quot;"/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value="&quot;D:/MSSQL/DATA/TOS/OUT/OCTIME DATA/Lamut_Paca&quot;"/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value="22"/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value="&quot;/data&quot;"/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value="&quot;hrm.lamutpaca&quot;"/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value="&quot;sftp.octime.net&quot;"/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;HRM-LAMUTPACA-SYNCHRO&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="Context_File" prompt="Context_File?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-LAMUTPACA-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:EwZMBw78Ii01YK8zWs+oMZez7DMd2j0I+adQRWHvc2AKhqpy"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-LAMUTPACA"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:lLI3vIuFBTk0rPqwqiEjNhEoCq52IMQoA2iCUN8vvtW9ULSs"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-LAMUTPACA"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="GipLabeo">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="Context_File" prompt="Context_File?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-GIPLABEO-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:Dpm1CK+G5Vd9QAhpgLIoz16oXElwXaVpnfR8CDF2ON9P28NT"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-GIPLABEO"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:yFyn+tnWL0D2tqw444L0uI8Ih/sehgLajecFvvcRpxpul5+o"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-GIPLABEO"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="AiderSante">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-AIDERSANTE&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value="&quot;AIDER_SANTE_FILE.csv&quot;"/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value="&quot;D:/MSSQL/DATA/TOS/OUT/OCTIME DATA/Aider_Sante&quot;"/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value="22"/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value="&quot;/data&quot;"/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value="&quot;octestdev&quot;"/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value="&quot;sftp.octime.net&quot;"/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;HRM-AIDERSANTE-SYNCHRO&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="Context_File" prompt="Context_File?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-AIDERSANTE-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:zl50/XTaX748JJ/DoO67j16QUgxV4UkKFNEtuyattktMOwdE"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-AIDERSANTE"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:mJl0Y1fNYCL8xBnZe4TfA9xwXnVBHRHVa5P77LBdDWzlWzdo"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-AIDERSANTE"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <context confirmationNeeded="false" name="SOBEGI">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ssl=require"/>
+    <contextParameter comment="" name="Context_File" prompt="Context_File?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-SOBEGI-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="hrm-sqlmi-02.bf25e9d1fa44.database.windows.net"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:FR/N2B7OLIZL3nXGIlhNp9kxEdTwdoLbB71bDVJzwytajbd8XzW6ZmHyHEFU+eAaIMUFyA=="/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-SOBEGI"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:EjURVBBbisqONc/s7c3KGnQakCZ94Gg0FTvytmaRmbWxteDnd3m65RrJdcKB3K/e65EEEA=="/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRMAPS"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="hrm-sqlmi-01.004f815736d4.database.windows.net"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRMAPS"/>
+  </context>
+  <context confirmationNeeded="false" name="APIRJSO">
+    <contextParameter comment="" name="BD_HRmaps" prompt="BD_HRmaps?" promptNeeded="false" type="id_String" value="&quot;HRM-STAFFELIO-DEV&quot;"/>
+    <contextParameter comment="" name="Hote" prompt="Hote?" promptNeeded="false" type="id_String" value="&quot;127.0.0.1&quot;"/>
+    <contextParameter comment="" name="octime_filename" prompt="octime_filename?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_local_directory" prompt="octime_ftp_local_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_password" prompt="octime_ftp_password?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_port" prompt="octime_ftp_port?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_remote_directory" prompt="octime_ftp_remote_directory?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_ftp_username" prompt="octime_ftp_username?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="octime_server" prompt="octime_server?" promptNeeded="false" type="id_String" value=""/>
+    <contextParameter comment="" name="Synchro" prompt="Synchro?" promptNeeded="false" type="id_String" value="&quot;Synchro_21.2&quot;"/>
+    <contextParameter comment="" name="additionalParameter" prompt="additionalParameter?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="Context_File" prompt="Context_File?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-APIRJSO-SYNCHRO"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="localhost"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:LShI3wpct3UnaCm9+sbcFWtTFf0VNEpdBs3OfScKfSrFzIWL"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="OUT"/>
+    <contextParameter comment="" name="sourceDB" prompt="sourceDB?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-APIRJSO-COURONNERIE"/>
+    <contextParameter comment="" name="sourceDBPassword" prompt="sourceDBPassword?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_Password" value="enc:system.encryption.key.v1:siZfL3P5H5x7dMfDlCxqW8CKk8PYpLs6iPlvpwZe6bWvtnzx"/>
+    <contextParameter comment="" name="sourceDBUsername" prompt="sourceDBUsername?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="HRM-APIRJSO-COURONNERIE"/>
+    <contextParameter comment="" name="sourceHost" prompt="sourceHost?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="ListenerProd2"/>
+    <contextParameter comment="" name="sourceSchema" prompt="sourceSchema?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value=""/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_qC-qEIi7Eeu42PyN8C7zHA" type="id_String" value="SSIS"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="64" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Program Files (x86)/TOS_DI-8.0.1/studio/ContextEssai.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:wsSBvQzaHx/t+tcgbb+8gR0phSPpDvDrARyNMZLn" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/SRV.ADMIN2023/Desktop/INTERFACES/TOS_ESB-20200219_1130-V7.3.1/Studio/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZFpLjwFop8I3BmgypbvWGq3nXG0Pwozd4dbbFji/" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <routinesParameter id="_zuiAAIGBEeuO4bZBRaru_A" name="DataOperation"/>
+    <routinesParameter id="_z8kcAIGBEeuO4bZBRaru_A" name="Mathematical"/>
+    <routinesParameter id="_z-rU0IGBEeuO4bZBRaru_A" name="Numeric"/>
+    <routinesParameter id="_z_HZsIGBEeuO4bZBRaru_A" name="Relational"/>
+    <routinesParameter id="_z_9uQIGBEeuO4bZBRaru_A" name="StringHandling"/>
+    <routinesParameter id="_0BjCoIGBEeuO4bZBRaru_A" name="TalendDataGenerator"/>
+    <routinesParameter id="_0ConwIGBEeuO4bZBRaru_A" name="TalendDate"/>
+    <routinesParameter id="_0FK-YIGBEeuO4bZBRaru_A" name="TalendStringUtil"/>
+    <routinesParameter id="_0EUp0IGBEeuO4bZBRaru_A" name="TalendString"/>
+  </parameters>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="-32" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4eRxZ2bjjqgc3jxW0Mm+FtV/cVxS4nS8qJe+C/pc71ggZciJBVgUPRSCjhk="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot; IF(NOT EXISTS (SELECT name FROM master.dbo.sysdatabases WHERE ('[name]' = 'Synchro_20.6'&#xD;&#xA;OR name = 'Synchro_20.6')))&#xD;&#xA;BEGIN&#xD;&#xA;USE master;&#xD;&#xA;CREATE DATABASE [Synchro_20.6] COLLATE Cyrillic_General_CI_AS;&#xD;&#xA;END &#xD;&#xA;&#xD;&#xA;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Create SynchroDB"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_1"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_3" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7iCrOnyfCRXJUciwUedKqEjfKItwK/RvKKyYTyncfBI1YWcxEhnPbTp0u6E="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot; IF(NOT EXISTS (SELECT * FROM  [Synchro_20.6].sys.schemas WHERE name ='OUT'))&#xD;&#xA;EXEC('CREATE SCHEMA [OUT]')&#xD;&#xA; &quot;&#xD;&#xA;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Create SynchroDB Schema"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_3"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:2lX/0tpZ9P7efkVnnUcgJrHhu+zWTbYs2v/tVR2yguJ64q0IkaRMWX+Y4Gs="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#xD;&#xA;IF  NOT EXISTS (SELECT * &#xD;&#xA;                 FROM INFORMATION_SCHEMA.TABLES &#xD;&#xA;                 WHERE TABLE_SCHEMA = 'OUT' &#xD;&#xA;                 AND  TABLE_NAME = 'Employee')&#xD;&#xA;&#xD;&#xA;BEGIN&#xD;&#xA;&#xD;&#xA;CREATE TABLE [OUT].[Employee](&#xD;&#xA; [SK_Employee] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,&#xD;&#xA; [RegistrationNum] [nvarchar](255) NULL,&#xD;&#xA; [PayrollNum] [nvarchar](255) NULL,&#xD;&#xA; [Trigram] [nvarchar](255) NULL,&#xD;&#xA; [LastName] [nvarchar](255) NULL,&#xD;&#xA; [FirstName] [nvarchar](255) NULL,&#xD;&#xA; [BirthName] [nvarchar](255) NULL,&#xD;&#xA; [MiddleName] [nvarchar](255) NULL,&#xD;&#xA; [GenderID] [tinyint] NULL,&#xD;&#xA; [CivilityID] [nvarchar](255) NULL,&#xD;&#xA; [BirthDate] [date] NULL,&#xD;&#xA; [BirthPlace] [nvarchar](255) NULL,&#xD;&#xA; [BirthDepartment] [nvarchar](255) NULL,&#xD;&#xA; [BirthCountryID] [nvarchar](255) NULL,&#xD;&#xA; [NationalityID1] [nvarchar](255) NULL,&#xD;&#xA; [NationalityID2] [nvarchar](255) NULL,&#xD;&#xA; [HiringDate] [date] NULL,&#xD;&#xA; [CompanyEntryDate] [date] NULL,&#xD;&#xA; [CompanySeniorityDate] [DATE] NULL,&#xD;&#xA; [CategorySeniorityDate] [DATE] NULL,&#xD;&#xA; [GroupSeniorityDate] [DATE] NULL,&#xD;&#xA; [CompanyDepartureDate] [DATE] NULL,&#xD;&#xA; [IsExternal] [bit] NULL,&#xD;&#xA; [RoleID] [int] NULL,&#xD;&#xA; [PlannedRetirementDate] [DATE] NULL,&#xD;&#xA; [ProEmail] [nvarchar](max) NULL,&#xD;&#xA; [ProFixedPhoneNumber] [nvarchar](200) NULL,&#xD;&#xA; [ProMobilePhoneNumber] [nvarchar](max) NULL,&#xD;&#xA; [DirectManagerID] [nvarchar](255) NULL,&#xD;&#xA; [FunctionalManagerID] [nvarchar](255) NULL,&#xD;&#xA; [PersoEmail] [nvarchar](200) NULL,&#xD;&#xA; [PersoFixedPhoneNumber] [nvarchar](200) NULL,&#xD;&#xA; [PersoMobilePhoneNumber] [nvarchar](200) NULL,&#xD;&#xA; [PersoAddressStreet1] [nvarchar](255) NULL,&#xD;&#xA; [PersoAddressStreet2] [nvarchar](255) NULL,&#xD;&#xA; [PersoAddressPostalCode] [nvarchar](200) NULL,&#xD;&#xA; [PersoAddressISOCode] [nvarchar](255) NULL,&#xD;&#xA; [PersoAddressCity] [nvarchar](255) NULL,&#xD;&#xA; [PersoAddressRegion] [nvarchar](255) NULL,&#xD;&#xA; [PersoAddressCountryID] [nvarchar](255) NULL,&#xD;&#xA; [BloodGroup] [tinyint] NULL,&#xD;&#xA; [EmergencyContactLastName] [nvarchar](255) NULL,&#xD;&#xA; [EmergencyContactFirstName] [nvarchar](255) NULL,&#xD;&#xA; [EmergencyPhone1Number] [nvarchar](255) NULL,&#xD;&#xA; [EmergencyPhone2Number] [nvarchar](255) NULL,&#xD;&#xA; [EmergencyEmail] [nvarchar](255) NULL,&#xD;&#xA; [EmergencyFamilyLinkID] [int] NULL,&#xD;&#xA; [UserSize] [decimal](18, 1) NULL,&#xD;&#xA; [ShoeSize] [decimal](18, 1) NULL,&#xD;&#xA; [ClotheSize1] [decimal](18, 1) NULL,&#xD;&#xA; [ClotheSize2] [decimal](18, 1) NULL,&#xD;&#xA; [HeadSize] [decimal](18, 1) NULL,&#xD;&#xA; [NeckSize] [decimal](18, 1) NULL,&#xD;&#xA; [ClotheEndValidity] [DATE] NULL,&#xD;&#xA; [VehicleTypeID] [int] NULL,&#xD;&#xA; [PuissanceID] [int] NULL,&#xD;&#xA; [DistanceHomeToWork] [decimal](18, 3) NULL,&#xD;&#xA; [HasFoodVoucher] [bit] NULL,&#xD;&#xA; [BankName] [nvarchar](250) NULL,&#xD;&#xA; [BankAddress] [nvarchar](max) NULL,&#xD;&#xA; [BankIBAN] [nvarchar](250) NULL,&#xD;&#xA; [BankRIB] [nvarchar](250) NULL,&#xD;&#xA; [BankBIC] [nvarchar](250) NULL,&#xD;&#xA; [MaritalStatusID] [int] NULL,&#xD;&#xA; [UnionDate] [DATE] NULL,&#xD;&#xA; [SpouseName] [nvarchar](500) NULL,&#xD;&#xA; [DependentAdultNumber] [int] NULL,&#xD;&#xA; [DependentChildNumber] [int] NULL,&#xD;&#xA; [Date1] [DATE] NULL,&#xD;&#xA; [Date2] [DATE] NULL,&#xD;&#xA; [Text1] [nvarchar](255) NULL,&#xD;&#xA; [Text2] [nvarchar](255) NULL,&#xD;&#xA; [Numeric1] [decimal](18, 2) NULL,&#xD;&#xA; [Numeric2] [decimal](18, 2) NULL,&#xD;&#xA; [Date3] [date] NULL,&#xD;&#xA; [Date4] [date] NULL,&#xD;&#xA; [Text3] [nvarchar](255) NULL,&#xD;&#xA; [text4] [nvarchar](255) NULL,&#xD;&#xA; [Numeric3] [decimal](18, 2) NULL,&#xD;&#xA; [Numeric4] [decimal](18, 2) NULL,&#xD;&#xA; [Date5] [DATE] NULL,&#xD;&#xA; [Date6] [DATE] NULL,&#xD;&#xA; [Text5] [nvarchar](255) NULL,&#xD;&#xA; [Text6] [nvarchar](255) NULL,&#xD;&#xA; [Numeric5] [decimal](18, 2) NULL,&#xD;&#xA; [Numeric6] [decimal](18, 2) NULL,&#xD;&#xA; [Visa1] [nvarchar](250) NULL,&#xD;&#xA; [Visa1Type] [nvarchar](250) NULL,&#xD;&#xA; [Visa1EndValidity] [DATE] NULL,&#xD;&#xA; [Visa2] [nvarchar](250) NULL,&#xD;&#xA; [Visa2Type] [nvarchar](250) NULL,&#xD;&#xA; [Visa2EndValidity] [DATE] NULL,&#xD;&#xA; [Passport] [nvarchar](250) NULL,&#xD;&#xA; [PassportEndValidity] [DATE] NULL,&#xD;&#xA; [ResidencePermitNumber] [nvarchar](500) NULL,&#xD;&#xA; [ResidencePermitDeliveredBy] [nvarchar](500) NULL,&#xD;&#xA; [ResidencePermitDeliveredAt] [DATE] NULL,&#xD;&#xA; [ResidencePermitEndValidity] [DATE] NULL,&#xD;&#xA; [SocialSecurity] [nvarchar](250) NULL,&#xD;&#xA; [SocialSecurityDeliveredAt] [DATE] NULL,&#xD;&#xA; [SocialSecurityEndValidity] [DATE] NULL,&#xD;&#xA; [IdentityCard] [nvarchar](250) NULL,&#xD;&#xA; [IdentityCardEndValidity] [DATE] NULL,&#xD;&#xA; [QuickMSRole] [nvarchar](255) NULL,&#xD;&#xA; [QuickMSAccount] [nvarchar](255) NULL,&#xD;&#xA; [Record_StartDate] [DATETIME] NULL DEFAULT GETDATE(),&#xD;&#xA; [Record_EndDate] [DATETIME] NULL,&#xD;&#xA; [HashValue]  AS (hashbytes('SHA2_256',concat([RegistrationNum],[PayrollNum],[Trigram],[LastName],[FirstName],[BirthName],[MiddleName],[GenderID],[CivilityID],[BirthDate],[BirthPlace],[BirthDepartment],[BirthCountryID],[NationalityID1],[NationalityID2],[HiringDate],[CompanyEntryDate],[CompanySeniorityDate],[CategorySeniorityDate],[GroupSeniorityDate],[CompanyDepartureDate],[IsExternal],[RoleID],[PlannedRetirementDate],[ProEmail],[ProFixedPhoneNumber],[ProMobilePhoneNumber],[DirectManagerID],[FunctionalManagerID],[PersoEmail],[PersoFixedPhoneNumber],[PersoMobilePhoneNumber],[PersoAddressStreet1],[PersoAddressStreet2],[PersoAddressPostalCode],[PersoAddressISOCode],[PersoAddressCity],[PersoAddressRegion],[PersoAddressCountryID],[BloodGroup],[EmergencyContactLastName],[EmergencyContactFirstName],[EmergencyPhone1Number],[EmergencyPhone2Number],[EmergencyEmail],[EmergencyFamilyLinkID],[UserSize],[ShoeSize],[ClotheSize1],[ClotheSize2],[HeadSize],[NeckSize],[ClotheEndValidity],[VehicleTypeID],[PuissanceID],[DistanceHomeToWork],[HasFoodVoucher],[BankName],[BankAddress],[BankIBAN],[BankRIB],[BankBIC],[MaritalStatusID],[UnionDate],[SpouseName],[DependentAdultNumber],[DependentChildNumber],[Date1],[Date2],[Text1],[Text2],[Numeric1],[Numeric2],[Date3],[Date4],[Text3],[text4],[Numeric3],[Numeric4],[Date5],[Date6],[Text5],[Text6],[Numeric5],[Numeric6],[Visa1],[Visa1Type],[Visa1EndValidity],[Visa2],[Visa2Type],[Visa2EndValidity],[Passport],[PassportEndValidity],[ResidencePermitNumber],[ResidencePermitDeliveredBy],[ResidencePermitDeliveredAt],[ResidencePermitEndValidity],[SocialSecurity],[SocialSecurityDeliveredAt],[SocialSecurityEndValidity],[IdentityCard],[IdentityCardEndValidity],[QuickMSRole],[QuickMSAccount]))),&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;END &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Create Employee Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_2"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SyncEmployee_SBG"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="SOBEGI"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SYNCHRO_PROD:_7TiQkF5OEeyKnZXLln1iTA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sync Employee"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="-8" offsetLabelY="2" posX="480" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_4" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:O742qh8XJEtPJFszph8g5y3BXpdfd97etL9JofhIeHf0ttETT7IanBCPW08="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot; IF  NOT EXISTS (SELECT * FROM sys.objects &#xD;&#xA;WHERE object_id = OBJECT_ID(N'[OUT].[Contract]') AND type in (N'U'))&#xD;&#xA;&#xD;&#xA;BEGIN&#xD;&#xA;&#xD;&#xA;CREATE TABLE [OUT].[Contract](&#xD;&#xA; [SK_Contract] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,&#xD;&#xA; [RegistrationNum] [nvarchar](255) NULL,&#xD;&#xA; [Reference] [int] NULL,&#xD;&#xA; [OrderNumber] [nvarchar](255) NULL,&#xD;&#xA; [Title] [nvarchar](255) NULL,&#xD;&#xA; [StartDate] [date] NULL,&#xD;&#xA; [TrialRenewalStartDate] [date] NULL,&#xD;&#xA; [TrialRenewalEndDate] [date] NULL,&#xD;&#xA; [TrialStartDate] [date] NULL,&#xD;&#xA; [TrialEndDate] [date] NULL,&#xD;&#xA; [NatureID] [nvarchar](255) NULL,&#xD;&#xA; [ReasonID] [nvarchar](500) NULL,&#xD;&#xA; [CategoryStatusID] [int] NULL,&#xD;&#xA; [ProfessionalStatusID] [nvarchar](255) NULL,&#xD;&#xA; [CategorialStatusID] [nvarchar](255) NULL,&#xD;&#xA; [AdministrativeSituationID] [int] NULL,&#xD;&#xA; [SupportTypeID] [int] NULL,&#xD;&#xA; [HiringKind] [nvarchar](255) NULL,&#xD;&#xA; [EndTitle] [nvarchar](500) NULL,&#xD;&#xA; [EndingReasonID] [int] NULL,&#xD;&#xA; [BreakingReasonID] [int] NULL,&#xD;&#xA; [EndDate] [date] NULL,&#xD;&#xA; [ReasonCDD] [int] NULL,&#xD;&#xA; [ReplacedID] [nvarchar](255) NULL,&#xD;&#xA; [PositionReplacedID] [nvarchar](255) NULL,&#xD;&#xA; [DepartmentId] [nvarchar](255) NULL,&#xD;&#xA; [DepartmentName] [nvarchar](250) NULL,&#xD;&#xA; [EstablishmentId][nvarchar](255)NULL,&#xD;&#xA; [EstablishmentName] [nvarchar](250) NULL,&#xD;&#xA; [CompanyId] [nvarchar](255)NULL,&#xD;&#xA; [CompanyName] [nvarchar](250) NULL,&#xD;&#xA; [GroupId] [nvarchar](255)NULL,&#xD;&#xA; [GroupName] [nvarchar](250) NULL,&#xD;&#xA; [EntityId1] [int] NULL,&#xD;&#xA; [EntityName1] [nvarchar](255) NULL,&#xD;&#xA; [EntityId2] [int] NULL,&#xD;&#xA; [EntityName2] [nvarchar](255) NULL,&#xD;&#xA; [EntityId3] [int] NULL,&#xD;&#xA; [EntityName3] [nvarchar](255) NULL,&#xD;&#xA; [EntityId4] [int] NULL,&#xD;&#xA; [EntityName4] [nvarchar](255) NULL,&#xD;&#xA; [EntityId5] [int] NULL,&#xD;&#xA; [EntityName5] [nvarchar](255) NULL,&#xD;&#xA; [EntityId6] [int] NULL,&#xD;&#xA; [EntityName6] [nvarchar](255) NULL,&#xD;&#xA; [EntityId7] [int] NULL,&#xD;&#xA; [EntityName7] [nvarchar](255) NULL,&#xD;&#xA; [EntityId8] [int] NULL,&#xD;&#xA; [EntityName8] [nvarchar](255) NULL,&#xD;&#xA; [EntityId9] [int] NULL,&#xD;&#xA; [EntityName9] [nvarchar](255) NULL,&#xD;&#xA; [ServiceID] [int] NULL,&#xD;&#xA; [WorkPlace] [nvarchar](255) NULL,&#xD;&#xA; [PositionID] [nvarchar](255) NULL,&#xD;&#xA; [DirectManagerID] [nvarchar](255) NULL,&#xD;&#xA; [WorkingTypeID] [nvarchar](255) NULL,&#xD;&#xA; [WorkingDurationID] [nvarchar](255) NULL,&#xD;&#xA; [WorkingUnitID] [int] NULL,&#xD;&#xA; [WorkDurationDay] [decimal](18, 2) NULL,&#xD;&#xA; [WorkDurationWeek] [decimal](18, 2) NULL,&#xD;&#xA; [WorkDurationMonth] [decimal](18, 2) NULL,&#xD;&#xA; [WorkDurationYear] [decimal](18, 2) NULL,&#xD;&#xA; [WorkWeekTypeID] [int] NULL,&#xD;&#xA; [CCNID] [nvarchar](500) NULL,&#xD;&#xA; [CCNName] [nvarchar](255) NULL,&#xD;&#xA; [CCNStatusID] [int] NULL,&#xD;&#xA; [Index] [nvarchar](250) NULL,&#xD;&#xA; [Coefficient] [nvarchar](250) NULL,&#xD;&#xA; [Level] [nvarchar](500) NULL,&#xD;&#xA; [RetirementCategoryID] [int] NULL,&#xD;&#xA; [OtherRetirement] [nvarchar](500) NULL,&#xD;&#xA; [PayslipModelID] [int] NULL,&#xD;&#xA; [ReferenceSalary] [decimal](18, 2) NULL,&#xD;&#xA; [Remuneration1] [decimal](18, 2) NULL,&#xD;&#xA; [Remuneration2] [decimal](18, 2) NULL,&#xD;&#xA; [Remuneration3] [decimal](18, 2) NULL,&#xD;&#xA; [Remuneration4] [decimal](18, 2) NULL,&#xD;&#xA; [Remuneration5] [decimal](18, 2) NULL,&#xD;&#xA; [IncreaseRateLess10] [decimal](18, 2) NULL,&#xD;&#xA; [IncreaseRateAbove10] [decimal](18, 2) NULL,&#xD;&#xA; [Record_StartDate] [datetime] NULL DEFAULT GETDATE(),&#xD;&#xA; [Record_EndDate] [datetime] NULL,&#xD;&#xA; [HashValue]  AS (hashbytes('SHA2_256',concat([RegistrationNum],[Reference],[OrderNumber],[Title],[StartDate],[TrialRenewalStartDate],[TrialRenewalEndDate],[TrialStartDate],[TrialEndDate],[NatureID],[ReasonID],[CategoryStatusID],[ProfessionalStatusID],[CategorialStatusID],[AdministrativeSituationID],[SupportTypeID],[HiringKind],[EndTitle],[EndingReasonID],[BreakingReasonID],[EndDate],[ReasonCDD],[ReplacedID],[PositionReplacedID],[DepartmentId],[DepartmentName],[EstablishmentId],[EstablishmentName],[CompanyId],[CompanyName],[GroupId],[GroupName],[EntityId1],[EntityName1],[EntityId2],[EntityName2],[EntityId3],[EntityName3],[EntityId4],[EntityName4],[EntityId5],[EntityName5],[EntityId6],[EntityName6],[EntityId7],[EntityName7],[EntityId8],[EntityName8],[EntityId9],[EntityName9],[ServiceID],[WorkPlace],[PositionID],[DirectManagerID],[WorkingTypeID],[WorkingDurationID],[WorkingUnitID],[WorkDurationDay],[WorkDurationWeek],[WorkDurationMonth],[WorkDurationYear],[WorkWeekTypeID],[CCNID],[CCNName],[CCNStatusID],[Index],[Coefficient],[Level],[RetirementCategoryID],[OtherRetirement],[PayslipModelID],[ReferenceSalary],[Remuneration1],[Remuneration2],[Remuneration3],[Remuneration4],[Remuneration5],[IncreaseRateLess10],[IncreaseRateAbove10])))&#xD;&#xA; )&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;END &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Create Contract Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_4"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SyncContract_SBG"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="SOBEGI"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SYNCHRO_PROD:_7Qj1EF5OEeyKnZXLln1iTA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sync Contract"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_5" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:V9ehAPujbz3QGcxYVIVFs1lQIi1QkzbkAkkm41bgTlYimzxVFnHU1UpsOic="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot; IF  NOT EXISTS (SELECT * FROM sys.objects &#xD;&#xA;WHERE object_id = OBJECT_ID(N'[OUT].[Dependent]') AND type in (N'U'))&#xD;&#xA;&#xD;&#xA;BEGIN&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;CREATE TABLE [OUT].[Dependent](&#xD;&#xA; [SK_Dependent] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,&#xD;&#xA; [Dependent_ID] [int] NULL,&#xD;&#xA; [RegistrationNum] [nvarchar](255) NULL,&#xD;&#xA; [FirstName] [nvarchar](255) NULL,&#xD;&#xA; [LastName] [nvarchar](255) NULL,&#xD;&#xA; [Gender] [tinyint] NULL,&#xD;&#xA; [BirthDate] [date] NULL,&#xD;&#xA; [NationalityID] [int] NULL,&#xD;&#xA; [DependentIsHandicaped] [bit] NULL,&#xD;&#xA; [IsDependent] [bit] NULL,&#xD;&#xA; [DependentRelationID] [int] NULL,&#xD;&#xA; [Record_StartDate] [datetime] NULL DEFAULT getdate(),&#xD;&#xA; [Record_EndDate] [datetime] NULL,&#xD;&#xA; [HashValue]  AS (hashbytes('SHA2_256',concat([Dependent_ID],[RegistrationNum],[FirstName],[LastName],[Gender],[BirthDate],[NationalityID],[DependentIsHandicaped],[IsDependent],[DependentRelationID])))&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;END &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Create Dependent Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_5"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="18" offsetLabelY="8" posX="480" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_6" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4JX2Ce0OEzf5P2iqNgOlB3+LRxoPggMjGILqtOF0eEQq2myIufrz4aYGqhg="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;IF  NOT EXISTS (SELECT * FROM sys.objects &#xD;&#xA;WHERE object_id = OBJECT_ID(N'[OUT].[LegalEntityCompany]') AND type in (N'U'))&#xD;&#xA;&#xD;&#xA;BEGIN&#xD;&#xA;&#xD;&#xA;CREATE TABLE [OUT].[LegalEntityCompany](&#xD;&#xA;    [SK_LegalEntityCompany] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,&#xD;&#xA;    [CompanyId] [int] NULL,&#xD;&#xA;    [EntityID] [nvarchar](255) NULL,&#xD;&#xA;    [ParentID] [int] NULL,&#xD;&#xA;    [Name] [nvarchar](255) NULL,&#xD;&#xA;    [PayrollID] [nvarchar](500) NULL,&#xD;&#xA;    [PayrollFolder] [nvarchar](500) NULL,&#xD;&#xA;    [NationalID] [nvarchar](500) NULL,&#xD;&#xA;    [CreationDate] [datetime] NULL,&#xD;&#xA;    [TypeID] [int] NULL,&#xD;&#xA;    [ActivityID] [int] NULL,&#xD;&#xA;    [WorkforceCountID] [nvarchar](500) NULL,&#xD;&#xA;    [Record_StartDate] [datetime] NULL DEFAULT GETDATE(),&#xD;&#xA;    [Record_EndDate] [datetime] NULL,&#xD;&#xA;    [HashValue]  AS (hashbytes('SHA2_256',concat([CompanyId],[EntityID],[ParentID],[Name],[PayrollID],[PayrollFolder],[NationalID],[CreationDate],[TypeID],[ActivityID],[WorkforceCountID]))),&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;END&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Create  LegalEntityCompany Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_6"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_7" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qiBD+q+0jAMDNn+kPNeVf2d5J3mLKU+BywQqoiLJ7qGx16MzqwV2vb/dtdM="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot; IF  NOT EXISTS (SELECT * FROM sys.objects &#xD;&#xA;WHERE object_id = OBJECT_ID(N'[OUT].[Position]') AND type in (N'U'))&#xD;&#xA;&#xD;&#xA;CREATE TABLE [OUT].[Position](&#xD;&#xA; [SK_Position] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,&#xD;&#xA; [PositionID] [nvarchar](255) NULL,&#xD;&#xA; [PositionTitle] [nvarchar](max) NULL,&#xD;&#xA; [CodeID] [nvarchar](255) NULL,&#xD;&#xA; [TypeID] [int] NULL,&#xD;&#xA; [PositionLevelName] [nvarchar](255) NULL,&#xD;&#xA; [Index] [nvarchar](255) NULL,&#xD;&#xA; [Coefficient] [nvarchar](255) NULL,&#xD;&#xA; [Level] [nvarchar](255) NULL,&#xD;&#xA; [Record_StartDate] [datetime] NULL DEFAULT GETDATE(),&#xD;&#xA; [Record_EndDate] [datetime] NULL,&#xD;&#xA; [HashValue]  AS (hashbytes('SHA2_256',concat([PositionID],[PositionTitle],[CodeID],[TypeID],[PositionLevelName],[Index],[Coefficient],[Level])))&#xD;&#xA;)&#xD;&#xA;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Create  Position Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_7"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_8" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lNuBoUgfGGZg4pv5rYZyguAdtDxgoo5xvxc0gdDu2EFJzZhxrdVrBu6S4RU="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot; IF  NOT EXISTS (SELECT * FROM sys.objects &#xD;&#xA;WHERE object_id = OBJECT_ID(N'[OUT].[Structure]') AND type in (N'U'))&#xD;&#xA;&#xD;&#xA;CREATE TABLE [OUT].[Structure](&#xD;&#xA; [SK_Structure] [int] IDENTITY(1,1) NOT NULL Primary key,&#xD;&#xA; [EntityID] [nvarchar](255) NULL,&#xD;&#xA; [ParentID] [int] NULL,&#xD;&#xA; [NationalID] [nvarchar](500) NULL,&#xD;&#xA; [Name] [nvarchar](255) NULL,&#xD;&#xA; [TypeID] [int] NULL,&#xD;&#xA; [StructLevelName] [nvarchar](255) NULL,&#xD;&#xA; [CreationDate] [datetime] NULL,&#xD;&#xA; [ActivityID] [int] NULL,&#xD;&#xA; [AddressStreet1] [nvarchar](max) NULL,&#xD;&#xA; [AddressStreet2] [nvarchar](255) NULL,&#xD;&#xA; [AddressPostalCode] [nvarchar](200) NULL,&#xD;&#xA; [AddressISOCode] [nvarchar](200) NULL,&#xD;&#xA; [AddressCity] [nvarchar](max) NULL,&#xD;&#xA; [AddressRegion] [nvarchar](255) NULL,&#xD;&#xA; [AddressCountryID] [int] NULL,&#xD;&#xA; [Latitude] [decimal](18, 2) NULL,&#xD;&#xA; [Longitude] [decimal](18, 2) NULL,&#xD;&#xA; [WorkforceCountID] [nvarchar](500) NULL,&#xD;&#xA; [Record_StartDate] [datetime] NULL default getdate(),&#xD;&#xA; [Record_EndDate] [datetime] NULL,&#xD;&#xA; [HashValue]  AS (hashbytes('SHA2_256',concat([EntityID],[ParentID],[NationalID],[Name],[TypeID],[StructLevelName],[CreationDate],[ActivityID],[AddressStreet1],[AddressStreet2],[AddressPostalCode],[AddressISOCode],[AddressRegion],[AddressCountryID],[Latitude],[Longitude],[WorkforceCountID])))&#xD;&#xA;) &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Create  Structure Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_8"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_9" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:XECY/IoAl/V4XdSljDZxuL4PSB+32TYBeQsd/Ty6hAa5FPx4CEXgvqVdHQk="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;IF  NOT EXISTS (SELECT * FROM sys.objects &#xD;&#xA;WHERE object_id = OBJECT_ID(N'[OUT].[LegalEntityEstablishment]') AND type in (N'U'))&#xD;&#xA;&#xD;&#xA;BEGIN&#xD;&#xA;&#xD;&#xA;CREATE TABLE [OUT].[LegalEntityEstablishment](&#xD;&#xA; [SK_LegalEntityEstablishment] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,&#xD;&#xA; [EstablishmentId] [int] NULL,&#xD;&#xA; [EntityID] [nvarchar](255) NULL,&#xD;&#xA; [ParentID] [int] NULL,&#xD;&#xA; [Name] [nvarchar](255) NULL,&#xD;&#xA; [PayrollID] [nvarchar](500) NULL,&#xD;&#xA; [PayrollFolder] [nvarchar](500) NULL,&#xD;&#xA; [NationalID] [nvarchar](500) NULL,&#xD;&#xA; [CreationDate] [datetime] NULL,&#xD;&#xA; [ActivityID] [int] NULL,&#xD;&#xA; [WorkforceCountID] [nvarchar](500) NULL,&#xD;&#xA; [AddressStreet1] [nvarchar](max) NULL,&#xD;&#xA; [AddressStreet2] [nvarchar](255) NULL,&#xD;&#xA; [AddressPostalCode] [nvarchar](200) NULL,&#xD;&#xA; [AddressISOCode] [nvarchar](200) NULL,&#xD;&#xA; [AddressCity] [nvarchar](max) NULL,&#xD;&#xA; [AddressRegion] [nvarchar](255) NULL,&#xD;&#xA; [AddressCountryID] [int] NULL,&#xD;&#xA; [Latitude] [decimal](18, 1) NULL,&#xD;&#xA; [Longitude] [decimal](18, 1) NULL,&#xD;&#xA; [Record_StartDate] [datetime] NULL DEFAULT GETDATE(),&#xD;&#xA; [Record_EndDate] [datetime] NULL,&#xD;&#xA; [HashValue]  AS (hashbytes('SHA2_256',concat([EstablishmentId],[EntityID],[ParentID],[Name],[PayrollID],[PayrollFolder],[NationalID],[CreationDate],[ActivityID],[WorkforceCountID],[AddressStreet1],[AddressStreet2],[AddressPostalCode],[AddressISOCode],[AddressCity],[AddressRegion],[AddressCountryID],[Latitude],[Longitude]))),&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;END &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Legal Entity Establishment Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_9"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_10" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CUfZXkZ4mK+/CednCZHAwDD1GV6+InkL8blls+9DDho+XTwSVFAB85GHAdM="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;IF  NOT EXISTS (SELECT * FROM sys.objects &#xD;&#xA;WHERE object_id = OBJECT_ID(N'[OUT].[LegalEntityGroup]') AND type in (N'U'))&#xD;&#xA;&#xD;&#xA;BEGIN&#xD;&#xA;&#xD;&#xA;CREATE TABLE [OUT].[LegalEntityGroup](&#xD;&#xA; [SK_LegalEntityGroup] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,&#xD;&#xA; [GroupId] [int] NULL,&#xD;&#xA; [EntityID] [nvarchar](255) NULL,&#xD;&#xA; [Name] [nvarchar](255) NULL,&#xD;&#xA; [CustomerGUID] [nvarchar](500) NULL,&#xD;&#xA; [PayrollID] [nvarchar](500) NULL,&#xD;&#xA; [NationalID] [nvarchar](500) NULL,&#xD;&#xA; [CreationDate] [datetime] NULL,&#xD;&#xA; [ActivityID] [int] NULL,&#xD;&#xA; [WorkforceCountID] [nvarchar](500) NULL,&#xD;&#xA; [Record_StartDate] [datetime] NULL DEFAULT GETDATE(),&#xD;&#xA; [Record_EndDate] [datetime] NULL,&#xD;&#xA; [HashValue]  AS (hashbytes('SHA2_256',concat([GroupId],[EntityID],[Name],[CustomerGUID],[PayrollID],[NationalID],[CreationDate],[ActivityID],[WorkforceCountID]))),&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;END &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Legal Entity Group Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_10"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="832">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_11" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:IH0MkYZlR6tzLs9oiGRx1PMRqxq8GAi1t33wa1uYPjh8KnDvTW/DcSnj6FU="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot; IF  NOT EXISTS (SELECT * FROM sys.objects &#xD;&#xA;WHERE object_id = OBJECT_ID(N'[OUT].[Remuneration]') AND type in (N'U'))&#xD;&#xA;&#xD;&#xA;BEGIN&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;CREATE TABLE [OUT].[Remuneration](&#xD;&#xA; [SK_Remuneration] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,&#xD;&#xA;[RemunerationId] [int] NOT NULL,&#xD;&#xA; [RegistrationNum] [nvarchar](255) NULL,&#xD;&#xA; [PaySlipPeriodID] [int] NULL,&#xD;&#xA; [PaySlipName] [nvarchar](255) NULL,&#xD;&#xA; [GrossAnnualSalary] [decimal](18, 1) NULL,&#xD;&#xA; [GrossmonthlySalary] [decimal](18, 1) NULL,&#xD;&#xA; [NetmonthlySalary] [decimal](18, 1) NULL,&#xD;&#xA; [BasicGrossMonthlySalary] [decimal](18, 1) NULL,&#xD;&#xA; [HourlyRate] [decimal](18, 1) NULL,&#xD;&#xA; [TrainingHourlyRate] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue7] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue8] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue9] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue10] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue11] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue12] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue13] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue14] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue15] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue16] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue17] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue18] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue19] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue20] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue21] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue22] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue23] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue24] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue25] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue26] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue27] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue28] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue29] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue30] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue31] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue32] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue33] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue34] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue35] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue36] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue37] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue38] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue39] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue40] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue41] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue42] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue43] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue44] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue45] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue46] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue47] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue48] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue49] [decimal](18, 1) NULL,&#xD;&#xA; [Revenue50] [decimal](18, 1) NULL,&#xD;&#xA; [IncreaseRateLess] [decimal](18, 1) NULL,&#xD;&#xA; [IncreaseRateAbove] [decimal](18, 1) NULL,&#xD;&#xA; [IncreaseDate] [datetime] NULL,&#xD;&#xA; [IncreaseType] [nvarchar](255) NULL,&#xD;&#xA; [Record_StartDate] [datetime] NULL DEFAULT GETDATE(),&#xD;&#xA; [Record_EndDate] [datetime] NULL,&#xD;&#xA; [HashValue]  AS (hashbytes('SHA2_256',concat([RegistrationNum],[PaySlipPeriodID],[PaySlipName],[GrossAnnualSalary],[GrossmonthlySalary],[NetmonthlySalary],[BasicGrossMonthlySalary],[HourlyRate],[TrainingHourlyRate],[Revenue7],[Revenue8],[Revenue9],[Revenue10],[Revenue11],[Revenue12],[Revenue13],[Revenue14],[Revenue15],[Revenue16],[Revenue17],[Revenue18],[Revenue19],[Revenue20],[Revenue21],[Revenue22],[Revenue23],[Revenue24],[Revenue25],[Revenue26],[Revenue27],[Revenue28],[Revenue29],[Revenue30],[Revenue31],[Revenue32],[Revenue33],[Revenue34],[Revenue35],[Revenue36],[Revenue37],[Revenue38],[Revenue39],[Revenue40],[Revenue41],[Revenue42],[Revenue43],[Revenue44],[Revenue45],[Revenue46],[Revenue47],[Revenue48],[Revenue49],[Revenue50],[IncreaseRateLess],[IncreaseRateAbove],[IncreaseDate],[IncreaseType]))),&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;END &quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Create Remuneration Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_11"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="928">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_12" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nnH2smveY44savV/Jzigeh5ep5biyYOrZkmKTulgHot7XBBJsHiMf2RV++A="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;IF  NOT EXISTS (SELECT * FROM sys.objects &#xD;&#xA;WHERE object_id = OBJECT_ID(N'[OUT].[LegalEntityDepartement]') AND type in (N'U'))&#xD;&#xA;&#xD;&#xA;CREATE TABLE [OUT].[LegalEntityDepartement](&#xD;&#xA; [SK_LegalEntityDepartement] [int] IDENTITY(1,1) NOT NULL PRIMARY  KEY,&#xD;&#xA; [DepartmentId] [int] NULL,&#xD;&#xA; [EntityID] [nvarchar](255) NULL,&#xD;&#xA; [ParentID] [int] NULL,&#xD;&#xA; [Name] [nvarchar](255) NULL,&#xD;&#xA; [PayrollID] [nvarchar](500) NULL,&#xD;&#xA; [CreationDate] [date] NULL,&#xD;&#xA; [Record_StartDate] [date] NULL DEFAULT GETDATE(),&#xD;&#xA; [Record_EndDate] [date] NULL,&#xD;&#xA; [HashValue]  AS (hashbytes('SHA2_256',concat([DepartmentId],[EntityID],[ParentID],[Name],[PayrollID],[CreationDate])))&#xD;&#xA; )&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Legal Entity DepartmentTable"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_12"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMSSqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_13" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DRIVER" value="JTDS"/>
+    <elementParameter field="TEXT" name="HOST" value="context.host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
+    <elementParameter field="TEXT" name="DB_SCHEMA" value="context.schema"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
+    <elementParameter field="TEXT" name="TYPE" value="MSSQL" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Gm5wrFrr6fILIerABz324XWydK71JwEx+02pNquLJoQvg/gtTOiFA9zXj/A="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot; IF  NOT EXISTS (SELECT * FROM sys.objects &#xD;&#xA;WHERE object_id = OBJECT_ID(N'[OUT].[TransactionHistory]') AND type in (N'U'))&#xD;&#xA;&#xD;&#xA;CREATE TABLE [OUT].[TransactionHistory](&#xD;&#xA;    [ID_Transaction] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,&#xD;&#xA;    [BusinessKey] [nvarchar](255) NULL,&#xD;&#xA;    [Destination] [nvarchar](255) NULL,&#xD;&#xA;&#x9;[OrderNumber] [int] NULL,&#xD;&#xA;&#x9;[Reference] [int] NULL,&#xD;&#xA;    [Model] [nvarchar](255) NULL,&#xD;&#xA;    [HashValue] [nvarchar](255) NULL,&#xD;&#xA;    [Transaction_Date] [date] NULL&#xD;&#xA;)&#xD;&#xA; &#xD;&#xA;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.additionalParameter"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="" show="false"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="Transaction Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBRow_13"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SyncDependent_SBG"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="SOBEGI"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SYNCHRO_PROD:_7SMz0F5OEeyKnZXLln1iTA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sync Dependent"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_3"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_4" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SynchLegalEntityComp_SBG"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="SOBEGI"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SYNCHRO_PROD:_7U4UYF5OEeyKnZXLln1iTA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sync LegalEntity Company Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_4"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_5" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SyncPosition_SBG"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="SOBEGI"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SYNCHRO_PROD:_7Ym90F5OEeyKnZXLln1iTA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sync Position"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_5"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="544">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_6" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SyncStructure_SBG"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="SOBEGI"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SYNCHRO_PROD:_7cexMF5OEeyKnZXLln1iTA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sync Structure"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_6"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_7" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SyncLegalEntityEstablishment_SBG"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="SOBEGI"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SYNCHRO_PROD:_7W0OEF5OEeyKnZXLln1iTA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sync Entity Establishment "/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_7"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_8" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SyncLegalEntityGroup_SBG"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="SOBEGI"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SYNCHRO_PROD:_7Xtl8F5OEeyKnZXLln1iTA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sync Group Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_8"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="832">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_9" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SyncRemuneration_SBG"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="SOBEGI"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SYNCHRO_PROD:_7bcPYF5OEeyKnZXLln1iTA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sync Remuneration"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_9"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="928">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_10" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="SyncLegalEntityDept_SBG"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="SOBEGI"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SYNCHRO_PROD:_7V62MF5OEeyKnZXLln1iTA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Sync Legal Entity Department"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_10"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_11" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CheckEmployee_SBG"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="SOBEGI"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SYNCHRO_PROD:_7On7YF5OEeyKnZXLln1iTA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="CheckEmployee"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_11"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tDBRow_3">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_3" offsetLabelX="0" offsetLabelY="0" source="tDBRow_3" target="tDBRow_13">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_2" offsetLabelX="0" offsetLabelY="0" source="tDBRow_2" target="tRunJob_1">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tRunJob_11">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk32" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_4" offsetLabelX="0" offsetLabelY="0" source="tDBRow_4" target="tRunJob_2">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_5" offsetLabelX="0" offsetLabelY="0" source="tDBRow_5" target="tRunJob_3">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk15" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_6" offsetLabelX="0" offsetLabelY="0" source="tDBRow_6" target="tRunJob_4">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk16" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_7" offsetLabelX="0" offsetLabelY="0" source="tDBRow_7" target="tRunJob_5">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk17" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_8" offsetLabelX="0" offsetLabelY="0" source="tDBRow_8" target="tRunJob_6">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk18" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_9" offsetLabelX="0" offsetLabelY="0" source="tDBRow_9" target="tRunJob_7">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk19" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_10" offsetLabelX="0" offsetLabelY="0" source="tDBRow_10" target="tRunJob_8">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk20" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_11" offsetLabelX="0" offsetLabelY="0" source="tDBRow_11" target="tRunJob_9">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk21" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_12" offsetLabelX="0" offsetLabelY="0" source="tDBRow_12" target="tRunJob_10">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk22" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_13" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tDBRow_13" target="tDBRow_12">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk14" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_13" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tDBRow_13" target="tDBRow_11">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk13" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_13" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tDBRow_13" target="tDBRow_10">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk12" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_13" offsetLabelX="0" offsetLabelY="0" outputId="4" source="tDBRow_13" target="tDBRow_9">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk11" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_13" offsetLabelX="0" offsetLabelY="0" outputId="5" source="tDBRow_13" target="tDBRow_8">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk10" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_13" offsetLabelX="0" offsetLabelY="0" outputId="6" source="tDBRow_13" target="tDBRow_7">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk9" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_13" offsetLabelX="0" offsetLabelY="0" outputId="7" source="tDBRow_13" target="tDBRow_6">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk8" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_13" offsetLabelX="0" offsetLabelY="0" outputId="8" source="tDBRow_13" target="tDBRow_5">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk7" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_13" offsetLabelX="0" offsetLabelY="0" outputId="9" source="tDBRow_13" target="tDBRow_4">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk6" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_13" offsetLabelX="0" offsetLabelY="0" outputId="10" source="tDBRow_13" target="tDBRow_2">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_4" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_5" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_6" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_7" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_8" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_9" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_10" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_11" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_12" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_13" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_4" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_5" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_6" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_7" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_8" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_9" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_10" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_11" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>

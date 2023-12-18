@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="LESNIDS" jobType="Standard">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="aec_collab_filename" prompt="aec_collab_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xV49MH10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_Contract_filename" prompt="aec_Contract_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xV49MX10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_converted" prompt="aec_converted?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xV49Mn10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_entity_filename" prompt="aec_entity_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xV49M310Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_login" prompt="aec_ftp_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xV49NH10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_mdp" prompt="aec_ftp_mdp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xV49NX10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_port" prompt="aec_ftp_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xV49Nn10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_server" prompt="aec_ftp_server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xV49N310Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_prof_filename" prompt="aec_prof_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xV49OH10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_rep_distant" prompt="aec_rep_distant?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xV49OX10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_rep_local" prompt="aec_rep_local?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xV49On10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_source_filename" prompt="aec_source_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xV49O310Ee6UrocXVjes4g"/>
+  </context>
+  <context confirmationNeeded="false" name="LESNIDS">
+    <contextParameter comment="" name="aec_collab_filename" prompt="aec_collab_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES//IN/LESNIDS/Collaborateurs.csv&quot;" internalId="_xV5kQH10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_Contract_filename" prompt="aec_Contract_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES//IN/LESNIDS/Contrats.csv&quot;" internalId="_xV5kQX10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_converted" prompt="aec_converted?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;" internalId="_xV5kQn10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_entity_filename" prompt="aec_entity_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES//IN/LESNIDS/Entites.csv&quot;" internalId="_xV5kQ310Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_login" prompt="aec_ftp_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;hrmfileshare01.lesnids.lesnids&quot;" internalId="_xV5kRH10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_mdp" prompt="aec_ftp_mdp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;sFZdwJuJj0ebT9LCNmUpVpHn012jQc8g&quot;" internalId="_xV5kRX10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_port" prompt="aec_ftp_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="22" internalId="_xV5kRn10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_server" prompt="aec_ftp_server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;hrmfileshare01.blob.core.windows.net&quot;" internalId="_xV5kR310Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_prof_filename" prompt="aec_prof_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES//IN/LESNIDS/Professions.csv&quot;" internalId="_xV5kSH10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_rep_distant" prompt="aec_rep_distant?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;/data&quot;" internalId="_xV5kSX10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_rep_local" prompt="aec_rep_local?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES//IN/LESNIDS/&quot;" internalId="_xV5kSn10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_source_filename" prompt="aec_source_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;&quot;" internalId="_xV5kS310Ee6UrocXVjes4g"/>
+  </context>
+  <context confirmationNeeded="false" name="LA">
+    <contextParameter comment="" name="aec_collab_filename" prompt="aec_collab_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES//IN/LABORATOIRE_ARROW/Collaborateurs.csv&quot;" internalId="_xV5kTH10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_entity_filename" prompt="aec_entity_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES//IN/LABORATOIRE_ARROW/Entites.csv&quot;" internalId="_xV5kTX10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_prof_filename" prompt="aec_prof_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES//IN/LABORATOIRE_ARROW/Professions.csv&quot;" internalId="_xV5kTn10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_server" prompt="aec_ftp_server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;hrmfileshare01.blob.core.windows.net&quot;" internalId="_xV5kT310Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_mdp" prompt="aec_ftp_mdp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;X8ZEdvDJF6fVbeaPC1xE1ugqt+74jywz&quot;" internalId="_xV5kUH10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_login" prompt="aec_ftp_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;hrmfileshare01.laboratoire-arrow.laboratoirearrow&quot;" internalId="_xV5kUX10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_port" prompt="aec_ftp_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="22" internalId="_xV5kUn10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_source_filename" prompt="aec_source_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/MSSQL/DATA/TOS/IN/ARC_EN_CIEL/AlfaGrh-Export-HRMAPS.txt&quot;" internalId="_xV5kU310Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_rep_local" prompt="aec_rep_local?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES//IN/LABORATOIRE_ARROW/&quot;" internalId="_xV5kVH10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_rep_distant" prompt="aec_rep_distant?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;/data&quot;" internalId="_xV5kVX10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_converted" prompt="aec_converted?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;D:/MSSQL/DATA/TOS/IN/ARC_EN_CIEL/AlfaGrh-Export-HRMAPS.csv&quot;" internalId="_xV5kVn10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_Contract_filename" prompt="aec_Contract_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES//IN/LABORATOIRE_ARROW/Contrats.csv&quot;" internalId="_xV5kV310Ee6UrocXVjes4g"/>
+  </context>
+  <context confirmationNeeded="false" name="APAJH">
+    <contextParameter comment="" name="aec_collab_filename" prompt="aec_collab_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES/IN/APAJH/Collaborateurs.csv&quot;" internalId="_xV5kWH10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_entity_filename" prompt="aec_entity_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES/IN/APAJH/Entites.csv&quot;" internalId="_xV5kWX10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_prof_filename" prompt="aec_prof_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES/IN/APAJH/Professions.csv&quot;" internalId="_xV5kWn10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_server" prompt="aec_ftp_server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;hrmfileshare01.blob.core.windows.net&quot;" internalId="_xV5kW310Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_mdp" prompt="aec_ftp_mdp?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;MHr854q0RrpWQxz3Bz5aqkjBvx1lTnM3&quot;" internalId="_xV5kXH10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_login" prompt="aec_ftp_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;hrmfileshare01.apajh.apajh&quot;" internalId="_xV5kXX10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_ftp_port" prompt="aec_ftp_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="22" internalId="_xV5kXn10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_source_filename" prompt="aec_source_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES/IN/APAJH/HRMAPS.txt&quot;" internalId="_xV5kX310Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_rep_local" prompt="aec_rep_local?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES/IN/APAJH/&quot;" internalId="_xV5kYH10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_rep_distant" prompt="aec_rep_distant?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;/data&quot;" internalId="_xV5kYX10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_converted" prompt="aec_converted?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES/IN/APAJH/HRMAPS.csv&quot;" internalId="_xV5kYn10Ee6UrocXVjes4g"/>
+    <contextParameter comment="" name="aec_Contract_filename" prompt="aec_Contract_filename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/INTERFACES/IN/APAJH/Contrats.csv&quot;" internalId="_xV5kY310Ee6UrocXVjes4g"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="true"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;C:/Program Files (x86)/TOS_DI-8.0.1/studio/ContextEssai.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:wsSBvQzaHx/t+tcgbb+8gR0phSPpDvDrARyNMZLn" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Program Files (x86)/TOS_DI-8.0.1/studio/workspace/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7upgf2Zx/bIlIONOc5DqKeSb3ZWSGBhm6PRpQvBM" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <routinesParameter id="_9CsnxoQDEeyhEbmae989wA" name="DataOperation"/>
+    <routinesParameter id="_9DJTtoQDEeyhEbmae989wA" name="Mathematical"/>
+    <routinesParameter id="_9DTEtoQDEeyhEbmae989wA" name="Numeric"/>
+    <routinesParameter id="_9DcOpoQDEeyhEbmae989wA" name="Relational"/>
+    <routinesParameter id="_9Dl_oIQDEeyhEbmae989wA" name="StringHandling"/>
+    <routinesParameter id="_9Dl_qoQDEeyhEbmae989wA" name="TalendDataGenerator"/>
+    <routinesParameter id="_9DvwqYQDEeyhEbmae989wA" name="TalendDate"/>
+    <routinesParameter id="_9EySgIQDEeyhEbmae989wA" name="TalendStringUtil"/>
+    <routinesParameter id="_9EySdoQDEeyhEbmae989wA" name="TalendString"/>
+  </parameters>
+  <node componentName="tFTPConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPConnection_1" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="context.SFTP_host"/>
+    <elementParameter field="TEXT" name="PORT" value="context.SFTP_port"/>
+    <elementParameter field="TEXT" name="FTPS_PORT" value="22" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="context.SFTP_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lTXMpoiQem3jBVzTBvXrHsDvesKAV2cYc2uWylbvhu4WDGW6AHyqZBlNgTiuOdWEAw=="/>
+    <elementParameter field="CHECK" name="SFTP" value="true"/>
+    <elementParameter field="CHECK" name="FTPS" value="false" show="false"/>
+    <elementParameter field="FILE" name="KEYSTORE_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" value="enc:system.encryption.key.v1:ThEsNqdzh74lODr86PhSDctCRyhKL0u70RJelUJW" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD"/>
+    <elementParameter field="FILE" name="PRIVATEKEY" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" value="enc:system.encryption.key.v1:l+0KJV17hqJrVRFdMfdRgQMAs99gUkDd/09Y1DrS" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" value="PASSIVE" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="SECURITY_MODE" value="IMPLICIT" show="false"/>
+    <elementParameter field="CHECK" name="USE_ENCODING" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" value="enc:system.encryption.key.v1:xJYc+OwE6AZ60Jods4rITQVSikB1hVGSmmrwCna5" show="false"/>
+    <elementParameter field="OPENED_LIST" name="FTPS_PROT" value="&quot;P&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FTPS_PROTECTION_BUFF_SIZE" value="0" show="false"/>
+    <elementParameter field="CHECK" name="REMOTE_VERIFICATION" value="true" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_TIMEOUT" value="0"/>
+    <elementParameter field="CHECK" name="USE_STRICT_REPLY_PARSING" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="EIG_FTP"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tFTPGet" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="32" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPGet_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tFTPConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;sftp.octime.net&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="22" show="false"/>
+    <elementParameter field="TEXT" name="FTPS_PORT" value="22" show="false"/>
+    <elementParameter field="TEXT" name="USERNAME" value="&quot;hrm.fondation-arcenciel&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:oym7rCxnPtYYWjfJ0mjvoWLbl6FqcKuUIBr+4bKrFSeqaeRSijVl+IDz" show="false"/>
+    <elementParameter field="CHECK" name="SFTP" value="true" show="false"/>
+    <elementParameter field="CHECK" name="FTPS" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD" show="false"/>
+    <elementParameter field="FILE" name="PRIVATEKEY" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" value="enc:system.encryption.key.v1:xsbYHaulLPehqI6pA1UqFx2Ly1xbG3qDvZSpGYg+" show="false"/>
+    <elementParameter field="FILE" name="KEYSTORE_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" value="enc:system.encryption.key.v1:3dvFsrhL+CXImm0afI+7YxB0lhCf5OpWTkmekGF+" show="false"/>
+    <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.file_dir"/>
+    <elementParameter field="TEXT" name="REMOTEDIR" value="context.remote_dir"/>
+    <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="MODE" value="ascii" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="OVERWRITE" value="never" show="false"/>
+    <elementParameter field="CHECK" name="APPEND" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="SFTPOVERWRITE" value="overwrite"/>
+    <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="context.fichier_source_collab_filename+context.fichier_source_collab_extension"/>
+      <elementValue elementRef="FILEMASK" value="context.fichier_source_ctr_filename+context.fichier_source_ctr_extension"/>
+    </elementParameter>
+    <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" value="PASSIVE" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="SECURITY_MODE" value="IMPLICIT" show="false"/>
+    <elementParameter field="CHECK" name="USE_ENCODING" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" value="enc:system.encryption.key.v1:ZBDZuvKvpaXrmCeGAc7vz8D7DinCgT5OZ5cehe55" show="false"/>
+    <elementParameter field="CHECK" name="IGNORE_FAILURE_AT_QUIT" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_MESSAGE" value="false"/>
+    <elementParameter field="OPENED_LIST" name="FTPS_PROT" value="&quot;P&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FTPS_PROTECTION_BUFF_SIZE" value="0" show="false"/>
+    <elementParameter field="CHECK" name="REMOTE_VERIFICATION" value="true" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_TIMEOUT" value="0" show="false"/>
+    <elementParameter field="CHECK" name="USE_STRICT_REPLY_PARSING" value="true" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="EIG_FTP"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFTPGet_1"/>
+  </node>
+  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.aec_entity_filename"/>
+    <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
+    <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;D:/MSSQL/DATA/TOS/TOS_ESB-20200219_1130-V7.3.1/Studio/workspace&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DESTINATION" value="&quot;C:/INTERFACES/IN/LESNIDS&quot;"/>
+    <elementParameter field="CHECK" name="RENAME" value="true"/>
+    <elementParameter field="TEXT" name="DESTINATION_RENAME" value="&quot;Entites&quot;+TalendDate.getDate(&quot;CCYYMMDDHHmm&quot;) +&quot;.csv&quot;"/>
+    <elementParameter field="CHECK" name="REMOVE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="REPLACE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_DIRECTORY" value="true"/>
+    <elementParameter field="CHECK" name="FAILON" value="false"/>
+    <elementParameter field="CHECK" name="FORCE_COPY_DELETE" value="false"/>
+    <elementParameter field="CHECK" name="PRESERVE_LAST_MODIFIED_TIME" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileCopy_2"/>
+  </node>
+  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_4" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.aec_prof_filename"/>
+    <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
+    <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;D:/MSSQL/DATA/TOS/TOS_ESB-20200219_1130-V7.3.1/Studio/workspace&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DESTINATION" value="&quot;C:/INTERFACES/IN/LESNIDS&quot;"/>
+    <elementParameter field="CHECK" name="RENAME" value="true"/>
+    <elementParameter field="TEXT" name="DESTINATION_RENAME" value="&quot;Professions&quot;+TalendDate.getDate(&quot;CCYYMMDDHHmm&quot;) +&quot;.csv&quot;"/>
+    <elementParameter field="CHECK" name="REMOVE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="REPLACE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_DIRECTORY" value="true"/>
+    <elementParameter field="CHECK" name="FAILON" value="false"/>
+    <elementParameter field="CHECK" name="FORCE_COPY_DELETE" value="false"/>
+    <elementParameter field="CHECK" name="PRESERVE_LAST_MODIFIED_TIME" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileCopy_4"/>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&#xA;context.CONTEXTFILEPATH"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HEADER" value="0"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" value="&quot;C:/INTERFACES/TOS_ESB-20200219_1130-V7.3.1/Studio/PRODUCTION/INTERFACES_IN&quot;" show="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Key"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Value"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Key"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Value"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputDelimited_1">
+      <column comment="" key="false" length="-1" name="Key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="Key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Value" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tContextLoad_1" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
+    <elementParameter field="CHECK" name="DIEONERROR" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tContextLoad_1">
+      <column defaultValue="" key="false" length="255" name="key" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="PACKAGE_V3_WS"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="HRMAPS:_xgi0cHfWEe6E1b_J-diUTA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="WS"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_3" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.fichier_source_collab"/>
+    <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
+    <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;D:/MSSQL/DATA/TOS/TOS_ESB-20200219_1130-V7.3.1/Studio/workspace&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DESTINATION" value="context.file_dir"/>
+    <elementParameter field="CHECK" name="RENAME" value="true"/>
+    <elementParameter field="TEXT" name="DESTINATION_RENAME" value="context.fichier_source_collab_filename+TalendDate.getDate(&quot;CCYYMMDDHHmm&quot;) +context.fichier_source_collab_extension"/>
+    <elementParameter field="CHECK" name="REMOVE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="REPLACE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_DIRECTORY" value="true"/>
+    <elementParameter field="CHECK" name="FAILON" value="false"/>
+    <elementParameter field="CHECK" name="FORCE_COPY_DELETE" value="false"/>
+    <elementParameter field="CHECK" name="PRESERVE_LAST_MODIFIED_TIME" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileCopy_3"/>
+  </node>
+  <node componentName="tFileCopy" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="896" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_5" show="false"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.fichier_source_ctr"/>
+    <elementParameter field="CHECK" name="ENABLE_COPY_DIRECTORY" value="false"/>
+    <elementParameter field="DIRECTORY" name="SOURCE_DERECTORY" value="&quot;D:/MSSQL/DATA/TOS/TOS_ESB-20200219_1130-V7.3.1/Studio/workspace&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DESTINATION" value="context.file_dir"/>
+    <elementParameter field="CHECK" name="RENAME" value="true"/>
+    <elementParameter field="TEXT" name="DESTINATION_RENAME" value="context.fichier_source_ctr_filename+TalendDate.getDate(&quot;CCYYMMDDHHmm&quot;) +context.fichier_source_ctr_extension"/>
+    <elementParameter field="CHECK" name="REMOVE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="REPLACE_FILE" value="true"/>
+    <elementParameter field="CHECK" name="CREATE_DIRECTORY" value="true"/>
+    <elementParameter field="CHECK" name="FAILON" value="false"/>
+    <elementParameter field="CHECK" name="FORCE_COPY_DELETE" value="false"/>
+    <elementParameter field="CHECK" name="PRESERVE_LAST_MODIFIED_TIME" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileCopy_5"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPConnection_1" offsetLabelX="0" offsetLabelY="0" source="tFTPConnection_1" target="tFTPGet_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPGet_1" offsetLabelX="0" offsetLabelY="0" source="tFTPGet_1" target="tRunJob_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tContextLoad_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Value"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Key"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row5" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tFTPConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tRunJob_2" target="tFileCopy_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_2" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tRunJob_2" target="tFileCopy_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk6" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPConnection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFTPGet_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_4" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileCopy_5" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+</talendfile:ProcessType>
